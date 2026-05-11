@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/898749880512658433
+creation_time: 1778499210680
+experiment_id: '898749880512658433'
+last_update_time: 1778499210680
+lifecycle_stage: active
+name: Baseline_experimentation Using TFIDF Vectorizer and SMOTE

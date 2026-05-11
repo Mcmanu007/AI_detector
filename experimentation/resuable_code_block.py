@@ -14,9 +14,9 @@ def main(X_train:pd.DataFrame,X_test:pd.DataFrame,y_train:pd.DataFrame):
         y_train: Training targets
 
     Returns:
-        best_model: The best estimator found by GridSearchCV
-        y_pred:     Predictions on X_test
-        cv_results: Full cross-validation results dict
+        Resampled training data(features): X_train_res
+        Resampled training data(taregets):  y_train_res
+        vectorized testing data: X_test_vec
     """
     try:
         vectorizer = TfidfVectorizer(
