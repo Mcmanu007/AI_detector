@@ -53,7 +53,7 @@ def data_divide(data:pd.DataFrame,test_size:int,random_state:int) -> pd.DataFram
       test_data: A pandas DataFrame of the testing data
     '''
     try:
-        train,test = train_test_split(data,test_size=test_size,random_state=random_state, stratify=data)
+        train,test = train_test_split(data,test_size=test_size,random_state=random_state, stratify=['label'])
         logger.debug('The Data has been splitted into training and testing')
         return train,test
     except Exception as e:
@@ -84,4 +84,14 @@ def ingestion_stage():
             config = yaml.safeload(file)
 
         path = config['data']['path_to_data']
-        test_size = 6
+        test_size = config['data']['test_size']
+        random_state = config['data']['random_state']
+
+        data = load_data_from_path(path)
+        train,test = data_divide(data,test_size,random_state)
+        save_info(train,test)
+    except Exception as e:
+        logger.debug('Failed to complete the data ingestion stage')
+
+if __name__ == '__main__':
+    ingestion_stage()
