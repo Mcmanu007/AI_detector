@@ -1,0 +1,5 @@
+data:
+ test_size: 0.2
+ random_state: 42
+ path_to_data: 'ai_vs_human_text_2026.csv'
+ 

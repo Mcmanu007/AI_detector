@@ -39,3 +39,49 @@ def load_data_from_path(file_path:str):
         logger.error(f'File can not be located {file_path}')
     except Exception as e:
         logger.error('An error occured',e)
+
+
+
+def data_divide(data:pd.DataFrame,test_size:int,random_state:int) -> pd.DataFrame:
+    '''
+    Args:
+        data: The pandas DataFrame of the csv file
+        test_size: Size of the testing data
+        random_state: controls the shuffling
+    Returns:
+      train_data: A pandas DataFrame of the training data
+      test_data: A pandas DataFrame of the testing data
+    '''
+    try:
+        train,test = train_test_split(data,test_size=test_size,random_state=random_state, stratify=data)
+        logger.debug('The Data has been splitted into training and testing')
+        return train,test
+    except Exception as e:
+        logger.debug('Failed to split the data')
+
+
+def save_info(train:pd.DatFrame,test:pd.DataFrame,out:str='data/raw'):
+    '''
+    Args:
+       train: Train_data as pandas DataFrame
+       test: Test data as a pandas DataFrame
+    Returns:
+      The saved training and testing data to csv file
+      
+    '''
+    try:
+        os.makedirs(out,exist_ok=True)
+        train.to_csv(os.path.join(out,'raw_train_data.csv'),index=False)
+        test.to_csv(os.path.join(out,'raw_test_data'),index=False)
+        logger.debug('Train and test data info saved successfully')
+    except Exception as e:
+        logger.debug('Failed to save the information')
+
+def ingestion_stage():
+    try:
+        config_path = r'C:\Users\IKE\Desktop\Human_VS_AI\config.yaml'
+        with open(config_path,'r') as file:
+            config = yaml.safeload(file)
+
+        path = config['data']['path_to_data']
+        test_size = 6
