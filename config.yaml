@@ -2,4 +2,9 @@ data:
  test_size: 0.2
  random_state: 42
  path_to_data: 'ai_vs_human_text_2026.csv'
- 
+
+train_data:
+ train_path: 'data\raw\raw_train_data.csv'
+
+test_data:
+ test_path: 'data\raw\raw_test_data.csv'

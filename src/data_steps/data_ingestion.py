@@ -31,6 +31,8 @@ def load_data_from_path(file_path:str):
     '''
     try:
         data = pd.read_csv(file_path)
+        data.drop_duplicates(inplace=True)
+        data.dropna(inplace=True)
         logger.debug('The data has been loaded successfully')
         return data
     except pd.errors.ParserError as e:
