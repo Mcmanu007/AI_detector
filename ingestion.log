@@ -1,0 +1,12 @@
+2026-05-14 13:41:44,119 - ingestion - DEBUG - Failed to complete the data ingestion stage
+2026-05-14 13:43:33,322 - ingestion - DEBUG - The data has been loaded successfully
+2026-05-14 13:43:33,329 - ingestion - DEBUG - Failed to split the data
+2026-05-14 13:44:51,494 - ingestion - DEBUG - The data has been loaded successfully
+2026-05-14 13:44:51,505 - ingestion - DEBUG - The Data has been splitted into training and testing
+2026-05-14 13:44:51,556 - ingestion - DEBUG - Train and test data info saved successfully
+2026-05-14 13:49:11,006 - ingestion - DEBUG - The data has been loaded successfully
+2026-05-14 13:49:11,015 - ingestion - DEBUG - The Data has been splitted into training and testing
+2026-05-14 13:49:11,057 - ingestion - DEBUG - Train and test data info saved successfully
+2026-05-14 13:50:17,107 - ingestion - DEBUG - The data has been loaded successfully
+2026-05-14 13:50:17,118 - ingestion - DEBUG - The Data has been splitted into training and testing
+2026-05-14 13:50:17,192 - ingestion - DEBUG - Train and test data info saved successfully

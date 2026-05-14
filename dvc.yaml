@@ -1,6 +1,7 @@
-data_ingestion:
-  cmd: python src/data_steps/data_ingestion.py
-  deps:
-    - src/data_steps/data_ingestion.py
-    - config.yaml
+stages:
+  data_ingestion:
+    cmd: python src/data_steps/data_ingestion.py
+    deps:
+      - src/data_steps/data_ingestion.py
+      - config.yaml
   
