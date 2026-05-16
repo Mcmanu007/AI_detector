@@ -9,8 +9,18 @@ train_data:
 test_data:
  test_path: 'data\raw\raw_test_data.csv'
 
-preprocessed_test_data:
+preprocessed_train_data:
  train: 'data\preprocessed\train.csv'
 
-preprocessed_train_data:
+preprocessed_test_data:
  test: 'data\preprocessed\test.csv'
+
+smote:
+ random_state: 42
+ k_neighbors: 5
+
+vectorizer:
+ max_features: 5000
+ max_df: 0.8
+ ngram_range: [1,2]
+

@@ -10,3 +10,9 @@ stages:
     deps:
       - src/data_steps/data_preprocessing.py
       - config.yaml
+  
+  model_building:
+    cmd: python src/model/model_training.py
+    deps:
+      - src/model/model_training.py
+      - config.yaml
