@@ -21,6 +21,8 @@ file_handler = logging.FileHandler('model_building.log')
 file_handler.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+cons_handler.setFormatter(formatter)
 
 def load_train_data(train_path):
     try:
@@ -50,8 +52,10 @@ def main(train_data:pd.DataFrame,ngram_range:int,max_features:int,max_df:int, ra
         y_train = train_data['label'].values  
 
         X_train_vec = vectorizer.fit_transform(X_train)
+
         #saving the vectorizer for later use in the inference pipeline
         joblib.dump(vectorizer,os.path.join(pickle(),'vectorizer.pkl'))
+
         smote = SMOTE(random_state=random_state, k_neighbors=k_neigbors)
         X_train_res, y_train_res = smote.fit_resample(X_train_vec, y_train)
 
@@ -69,7 +73,6 @@ def model_building(X_train:np.ndarray,y_train:np.ndarray):
     except Exception as e:
         logger.error('An error occured: %s', e)
     
-
 
 def pickle(path:str='./pickle'):
     '''

@@ -24,3 +24,7 @@ vectorizer:
  max_df: 0.8
  ngram_range: [1,2]
 
+pickle:
+ model_path: 'rf_model.pkl'
+ vectorizer_path: 'vectorizer.pkl'
+
