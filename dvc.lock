@@ -5,8 +5,8 @@ stages:
     deps:
     - path: config.yaml
       hash: md5
-      md5: 63f070794829ee5044a6d702a169691c
-      size: 452
+      md5: eb3aabfd0f4c2f92b107a91871109dcc
+      size: 542
     - path: src/data_steps/data_ingestion.py
       hash: md5
       md5: 4675a4192c9e45a4dae8457bc0e8378d
@@ -16,8 +16,8 @@ stages:
     deps:
     - path: config.yaml
       hash: md5
-      md5: 63f070794829ee5044a6d702a169691c
-      size: 452
+      md5: eb3aabfd0f4c2f92b107a91871109dcc
+      size: 542
     - path: src/data_steps/data_preprocessing.py
       hash: md5
       md5: 7750e90c7385db15b6b43ccfafcc8a8a
@@ -27,9 +27,20 @@ stages:
     deps:
     - path: config.yaml
       hash: md5
-      md5: 63f070794829ee5044a6d702a169691c
-      size: 452
+      md5: eb3aabfd0f4c2f92b107a91871109dcc
+      size: 542
     - path: src/model/model_training.py
       hash: md5
-      md5: f9974067dd24cbac0d9aa8a8e3891973
-      size: 3963
+      md5: 7e8bb8f5a731346ce4c1b34c6de85e38
+      size: 3977
+  model_evaluation:
+    cmd: python src/model/model_evaluation.py
+    deps:
+    - path: config.yaml
+      hash: md5
+      md5: eb3aabfd0f4c2f92b107a91871109dcc
+      size: 542
+    - path: src/model/model_evaluation.py
+      hash: md5
+      md5: a1e947c0754ec8ea3e2801edc5b0ab88
+      size: 6122

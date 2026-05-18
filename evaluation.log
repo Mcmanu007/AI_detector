@@ -1,0 +1,32 @@
+2026-05-17 21:17:03,074 - model_evaluation - ERROR - An error occured in the evaluation process: 'test_data'
+2026-05-17 21:22:31,213 - model_evaluation - DEBUG - Test data loaded successfully
+2026-05-17 21:22:31,214 - model_evaluation - ERROR - An error occured in locating the error
+2026-05-17 21:22:31,214 - model_evaluation - ERROR - An error occured in locating the error
+2026-05-17 21:22:31,215 - model_evaluation - ERROR - An error occured in the evaluation process: 'text'
+2026-05-17 21:27:13,670 - model_evaluation - DEBUG - Test data loaded successfully
+2026-05-17 21:27:13,670 - model_evaluation - ERROR - An error occured in locating the error
+2026-05-17 21:27:13,670 - model_evaluation - ERROR - An error occured in locating the error
+2026-05-17 21:27:13,677 - model_evaluation - ERROR - An error occured in the evaluation process: 'text'
+2026-05-17 21:29:19,352 - model_evaluation - DEBUG - Test data loaded successfully
+2026-05-17 21:29:19,353 - model_evaluation - ERROR - An error occured in locating the error
+2026-05-17 21:29:19,354 - model_evaluation - ERROR - An error occured in locating the error
+2026-05-17 21:29:19,360 - model_evaluation - ERROR - An error occured in the evaluation process: 'numpy.ndarray' object has no attribute 'toarray'
+2026-05-17 21:38:01,609 - model_evaluation - DEBUG - Test data loaded successfully
+2026-05-17 21:38:01,610 - model_evaluation - ERROR - An error occured in locating the error
+2026-05-17 21:38:01,611 - model_evaluation - ERROR - An error occured in locating the error
+2026-05-17 21:38:01,614 - model_evaluation - ERROR - An error occured in the evaluation process: 'numpy.ndarray' object has no attribute 'toarray'
+2026-05-17 21:40:52,085 - model_evaluation - DEBUG - Test data loaded successfully
+2026-05-17 21:40:52,406 - model_evaluation - DEBUG - Model loaded successfully
+2026-05-17 21:40:52,435 - model_evaluation - DEBUG - Vectorizer loaded successfully
+2026-05-17 21:40:52,436 - model_evaluation - ERROR - An error occured in the evaluation process: 'numpy.ndarray' object has no attribute 'toarray'
+2026-05-17 21:45:45,137 - model_evaluation - DEBUG - Test data loaded successfully
+2026-05-17 21:45:45,411 - model_evaluation - DEBUG - Model loaded successfully
+2026-05-17 21:45:45,435 - model_evaluation - DEBUG - Vectorizer loaded successfully
+2026-05-17 21:46:14,187 - model_evaluation - DEBUG - Model info saved successfully
+2026-05-17 21:46:14,188 - model_evaluation - ERROR - An error occured in the evaluation process: evaluate_model() takes 3 positional arguments but 4 were given
+2026-05-17 21:47:44,297 - model_evaluation - DEBUG - Test data loaded successfully
+2026-05-17 21:47:44,601 - model_evaluation - DEBUG - Model loaded successfully
+2026-05-17 21:47:44,648 - model_evaluation - DEBUG - Vectorizer loaded successfully
+2026-05-17 21:48:06,797 - model_evaluation - DEBUG - Model info saved successfully
+2026-05-17 21:48:06,833 - model_evaluation - DEBUG - Model evaluation completed successfully
+2026-05-17 21:48:06,835 - model_evaluation - DEBUG - Evaluation results saved successfully

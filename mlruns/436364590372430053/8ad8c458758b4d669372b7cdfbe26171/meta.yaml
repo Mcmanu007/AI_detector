@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/IKE/Desktop/Human_VS_AI/mlruns/436364590372430053/8ad8c458758b4d669372b7cdfbe26171/artifacts
+end_time: 1779077823077
+entry_point_name: ''
+experiment_id: '436364590372430053'
+lifecycle_stage: active
+run_id: 8ad8c458758b4d669372b7cdfbe26171
+run_name: Evaluation_Run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779077822550
+status: 3
+tags: []
+user_id: IKE

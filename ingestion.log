@@ -25,3 +25,9 @@
 2026-05-16 14:23:47,732 - ingestion - DEBUG - The data has been loaded successfully
 2026-05-16 14:23:47,770 - ingestion - DEBUG - The Data has been splitted into training and testing
 2026-05-16 14:23:48,019 - ingestion - DEBUG - Train and test data info saved successfully
+2026-05-17 21:16:33,486 - ingestion - DEBUG - The data has been loaded successfully
+2026-05-17 21:16:33,497 - ingestion - DEBUG - The Data has been splitted into training and testing
+2026-05-17 21:16:33,540 - ingestion - DEBUG - Train and test data info saved successfully
+2026-05-17 21:40:09,369 - ingestion - DEBUG - The data has been loaded successfully
+2026-05-17 21:40:09,381 - ingestion - DEBUG - The Data has been splitted into training and testing
+2026-05-17 21:40:09,464 - ingestion - DEBUG - Train and test data info saved successfully

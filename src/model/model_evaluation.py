@@ -64,10 +64,9 @@ def load_vectorizer(vectorizer_path):
         logger.error('An error occured: %s', e)
 
 
-def evaluate_model(model,vectorizer,X_test:np.ndarray,y_test:np.ndarray):
+def evaluate_model(model,X_test:np.ndarray,y_test:np.ndarray):
     try:
-        X_test_vec = vectorizer.transform(X_test)
-        y_pred = model.predict(X_test_vec)
+        y_pred = model.predict(X_test)
         acc = accuracy_score(y_test, y_pred)
         conf_matrix = confusion_matrix(y_test, y_pred)
         class_report = classification_report(y_test, y_pred,output_dict=True)
@@ -79,7 +78,7 @@ def evaluate_model(model,vectorizer,X_test:np.ndarray,y_test:np.ndarray):
 
 def save_evaluation_results(acc, conf_matrix, class_report, output_path:str='model/evaluation_results.txt'):
     try:
-        os.makedirs(output_path, exist_ok=True)
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
         with open(output_path, 'w') as f:
             f.write(f'Accuracy: {acc}\n')
             f.write(f'Confusion Matrix:\n{conf_matrix}\n')
@@ -107,45 +106,46 @@ def main():
 
     mlflow.set_tracking_uri('http://127.0.0.1:5000')
 
-    with mlflow.start_run(run_name='Evaluation_Run') as run:
+    with mlflow.start_run(run_name='Evaluation') as run:
         try:
             config_path = 'config.yaml'
             with open(config_path,'r') as file:
                 config = yaml.safe_load(file)
 
-            test_path = config['preprocessed_test_data']['test_data']
-            model_path = config['pickle']['model_path']
+            test_path = config['preprocessed_test_data']['test']
+            rf_model_path = config['pickle']['model_path']
             vectorizer_path = config['pickle']['vectorizer_path']
 
             test_data = load_test_data(test_path)
-            model = load_trained_model(model_path)
+            rf_model = load_trained_model(rf_model_path)
             vectorizer = load_vectorizer(vectorizer_path)
             
             #preparing the testing data
-            X_test = test_data['text'].values
+            X_test = vectorizer.transform(test_data['text_preprocessed'].values)
             y_test = test_data['label'].values
 
             #test dataframe
             tests_example = pd.DataFrame(X_test.toarray()[:10],columns=vectorizer.get_feature_names_out())
 
 
-            test_signature = infer_signature(tests_example,model.predict(X_test[:10]))
+            test_signature = infer_signature(tests_example,rf_model.predict(X_test[:10]))
 
         
             mlflow.sklearn.log_model(
-                    model,
+                    rf_model,
                     'RandomForestClassifier',
                     signature=test_signature,
                     input_example=tests_example
                 )
             model_path = 'Random Forest Classifier Model'
+
             save_info(
                     run.info.run_id,   
                     model_path,
                     'model_info.json'
             )
 
-            acc, conf_matrix, class_report = evaluate_model(model,vectorizer,X_test,y_test)
+            acc, conf_matrix, class_report = evaluate_model(rf_model,X_test,y_test)
             save_evaluation_results(acc, conf_matrix, class_report)
 
             for label,metrics in class_report.items():
@@ -157,11 +157,10 @@ def main():
             mlflow.log_artifact('model_info.json')
             mlflow.log_artifact('model/evaluation_results.txt')
             
-            whitelist = ['vectorizer', 'smote']
-            #logging the parameters of the vectorizer and smote model
-            
+            config_parameters = ['vectorizer', 'smote']
+
             params_to_log = {}
-            for section in whitelist:
+            for section in config_parameters:
                 if section in config:
                     for key, value in config[section].items():
                         params_to_log[f"{section}_{key}"] = value

@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/IKE/Desktop/Human_VS_AI/mlruns/436364590372430053/models/m-e4699264729b4ddcb238868333bc0d18/artifacts
+creation_timestamp: 1779079546493
+experiment_id: '436364590372430053'
+last_updated_timestamp: 1779079574163
+model_id: m-e4699264729b4ddcb238868333bc0d18
+model_type: ''
+name: RandomForestClassifier
+source_run_id: fba09bb0fd014234ad9f057136e29e21
+status: 2
+status_message: null

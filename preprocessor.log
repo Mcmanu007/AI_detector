@@ -34,3 +34,15 @@
 2026-05-16 14:24:11,107 - preprocessing - DEBUG - Successfully preprocessed the text
 2026-05-16 14:24:11,155 - preprocessing - DEBUG - Saved preprocessed data
 2026-05-16 14:24:11,155 - preprocessing - DEBUG - Data preprocessing stage completed successfully
+2026-05-17 21:16:38,719 - preprocessing - DEBUG - The data has been loaded successfully
+2026-05-17 21:16:38,727 - preprocessing - DEBUG - The data has been loaded successfully
+2026-05-17 21:16:44,763 - preprocessing - DEBUG - Successfully preprocessed the text
+2026-05-17 21:16:45,334 - preprocessing - DEBUG - Successfully preprocessed the text
+2026-05-17 21:16:45,359 - preprocessing - DEBUG - Saved preprocessed data
+2026-05-17 21:16:45,359 - preprocessing - DEBUG - Data preprocessing stage completed successfully
+2026-05-17 21:40:18,838 - preprocessing - DEBUG - The data has been loaded successfully
+2026-05-17 21:40:18,852 - preprocessing - DEBUG - The data has been loaded successfully
+2026-05-17 21:40:30,366 - preprocessing - DEBUG - Successfully preprocessed the text
+2026-05-17 21:40:31,478 - preprocessing - DEBUG - Successfully preprocessed the text
+2026-05-17 21:40:31,512 - preprocessing - DEBUG - Saved preprocessed data
+2026-05-17 21:40:31,513 - preprocessing - DEBUG - Data preprocessing stage completed successfully

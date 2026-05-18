@@ -25,6 +25,6 @@ vectorizer:
  ngram_range: [1,2]
 
 pickle:
- model_path: 'rf_model.pkl'
- vectorizer_path: 'vectorizer.pkl'
+ model_path: 'pickle/rf_model.pkl'
+ vectorizer_path: 'pickle/vectorizer.pkl'
 

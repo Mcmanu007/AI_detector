@@ -16,3 +16,9 @@ stages:
     deps:
       - src/model/model_training.py
       - config.yaml
+  
+  model_evaluation:
+    cmd: python src/model/model_evaluation.py
+    deps:
+      - src/model/model_evaluation.py
+      - config.yaml

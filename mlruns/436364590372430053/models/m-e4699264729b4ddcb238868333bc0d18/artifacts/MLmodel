@@ -1,0 +1,2158 @@
+artifact_path: file:///C:/Users/IKE/Desktop/Human_VS_AI/mlruns/436364590372430053/models/m-e4699264729b4ddcb238868333bc0d18/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.6.0
+model_id: m-e4699264729b4ddcb238868333bc0d18
+model_size_bytes: 1037728
+model_uuid: m-e4699264729b4ddcb238868333bc0d18
+prompts: null
+run_id: fba09bb0fd014234ad9f057136e29e21
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "academic", "required": true}, {"type": "double",
+    "name": "academic practical", "required": true}, {"type": "double", "name": "according",
+    "required": true}, {"type": "double", "name": "according recently", "required":
+    true}, {"type": "double", "name": "account", "required": true}, {"type": "double",
+    "name": "account contextual", "required": true}, {"type": "double", "name": "acknowledge",
+    "required": true}, {"type": "double", "name": "acknowledge complexity", "required":
+    true}, {"type": "double", "name": "across", "required": true}, {"type": "double",
+    "name": "across article", "required": true}, {"type": "double", "name": "across
+    five", "required": true}, {"type": "double", "name": "across political", "required":
+    true}, {"type": "double", "name": "across sector", "required": true}, {"type":
+    "double", "name": "across six", "required": true}, {"type": "double", "name":
+    "action", "required": true}, {"type": "double", "name": "action debate", "required":
+    true}, {"type": "double", "name": "actually", "required": true}, {"type": "double",
+    "name": "actually surprising", "required": true}, {"type": "double", "name": "adaptation",
+    "required": true}, {"type": "double", "name": "adaptation strategy", "required":
+    true}, {"type": "double", "name": "address", "required": true}, {"type": "double",
+    "name": "address drawing", "required": true}, {"type": "double", "name": "address
+    gap", "required": true}, {"type": "double", "name": "addressing", "required":
+    true}, {"type": "double", "name": "addressing root", "required": true}, {"type":
+    "double", "name": "adoption", "required": true}, {"type": "double", "name": "adoption
+    academic", "required": true}, {"type": "double", "name": "adoption announcement",
+    "required": true}, {"type": "double", "name": "adoption become", "required": true},
+    {"type": "double", "name": "adoption broader", "required": true}, {"type": "double",
+    "name": "adoption came", "required": true}, {"type": "double", "name": "adoption
+    complicated", "required": true}, {"type": "double", "name": "adoption continue",
+    "required": true}, {"type": "double", "name": "adoption critical", "required":
+    true}, {"type": "double", "name": "adoption drawn", "required": true}, {"type":
+    "double", "name": "adoption emergency", "required": true}, {"type": "double",
+    "name": "adoption encouraging", "required": true}, {"type": "double", "name":
+    "adoption evolved", "required": true}, {"type": "double", "name": "adoption fine",
+    "required": true}, {"type": "double", "name": "adoption happened", "required":
+    true}, {"type": "double", "name": "adoption intensified", "required": true}, {"type":
+    "double", "name": "adoption keep", "required": true}, {"type": "double", "name":
+    "adoption largely", "required": true}, {"type": "double", "name": "adoption lately",
+    "required": true}, {"type": "double", "name": "adoption present", "required":
+    true}, {"type": "double", "name": "adoption really", "required": true}, {"type":
+    "double", "name": "adoption reported", "required": true}, {"type": "double", "name":
+    "adoption researcher", "required": true}, {"type": "double", "name": "adoption
+    sec", "required": true}, {"type": "double", "name": "adoption source", "required":
+    true}, {"type": "double", "name": "adoption uncovered", "required": true}, {"type":
+    "double", "name": "adoption within", "required": true}, {"type": "double", "name":
+    "aging", "required": true}, {"type": "double", "name": "aging population", "required":
+    true}, {"type": "double", "name": "aimed", "required": true}, {"type": "double",
+    "name": "aimed addressing", "required": true}, {"type": "double", "name": "alerted",
+    "required": true}, {"type": "double", "name": "alerted approximately", "required":
+    true}, {"type": "double", "name": "algorithmic", "required": true}, {"type": "double",
+    "name": "algorithmic bias", "required": true}, {"type": "double", "name": "alignment",
+    "required": true}, {"type": "double", "name": "alignment current", "required":
+    true}, {"type": "double", "name": "alike", "required": true}, {"type": "double",
+    "name": "alike expert", "required": true}, {"type": "double", "name": "allocation",
+    "required": true}, {"type": "double", "name": "allocation longterm", "required":
+    true}, {"type": "double", "name": "alone", "required": true}, {"type": "double",
+    "name": "along", "required": true}, {"type": "double", "name": "along predictable",
+    "required": true}, {"type": "double", "name": "already", "required": true}, {"type":
+    "double", "name": "analysis", "required": true}, {"type": "double", "name": "analysis
+    across", "required": true}, {"type": "double", "name": "analysis examines", "required":
+    true}, {"type": "double", "name": "analyst", "required": true}, {"type": "double",
+    "name": "analyst closely", "required": true}, {"type": "double", "name": "analyst
+    policymakers", "required": true}, {"type": "double", "name": "analyzing", "required":
+    true}, {"type": "double", "name": "analyzing dataset", "required": true}, {"type":
+    "double", "name": "announcement", "required": true}, {"type": "double", "name":
+    "announcement came", "required": true}, {"type": "double", "name": "antibiotic",
+    "required": true}, {"type": "double", "name": "antibiotic resistance", "required":
+    true}, {"type": "double", "name": "anyone", "required": true}, {"type": "double",
+    "name": "anyone happy", "required": true}, {"type": "double", "name": "anyone
+    telling", "required": true}, {"type": "double", "name": "applied", "required":
+    true}, {"type": "double", "name": "applied practice", "required": true}, {"type":
+    "double", "name": "approach", "required": true}, {"type": "double", "name": "approach
+    capture", "required": true}, {"type": "double", "name": "approach integrates",
+    "required": true}, {"type": "double", "name": "approach thoughtfully", "required":
+    true}, {"type": "double", "name": "approximately", "required": true}, {"type":
+    "double", "name": "approximately incident", "required": true}, {"type": "double",
+    "name": "area", "required": true}, {"type": "double", "name": "area actually",
+    "required": true}, {"type": "double", "name": "area announcement", "required":
+    true}, {"type": "double", "name": "area asked", "required": true}, {"type": "double",
+    "name": "area broader", "required": true}, {"type": "double", "name": "area came",
+    "required": true}, {"type": "double", "name": "area complicated", "required":
+    true}, {"type": "double", "name": "area critical", "required": true}, {"type":
+    "double", "name": "area drawn", "required": true}, {"type": "double", "name":
+    "area emergency", "required": true}, {"type": "double", "name": "area employing",
+    "required": true}, {"type": "double", "name": "area evolved", "required": true},
+    {"type": "double", "name": "area fine", "required": true}, {"type": "double",
+    "name": "area happened", "required": true}, {"type": "double", "name": "area honestly",
+    "required": true}, {"type": "double", "name": "area inquiry", "required": true},
+    {"type": "double", "name": "area intensified", "required": true}, {"type": "double",
+    "name": "area keep", "required": true}, {"type": "double", "name": "area largely",
+    "required": true}, {"type": "double", "name": "area lately", "required": true},
+    {"type": "double", "name": "area noting", "required": true}, {"type": "double",
+    "name": "area persistent", "required": true}, {"type": "double", "name": "area
+    predominantly", "required": true}, {"type": "double", "name": "area present",
+    "required": true}, {"type": "double", "name": "area reported", "required": true},
+    {"type": "double", "name": "area researcher", "required": true}, {"type": "double",
+    "name": "area sec", "required": true}, {"type": "double", "name": "area source",
+    "required": true}, {"type": "double", "name": "area uncovered", "required": true},
+    {"type": "double", "name": "argue", "required": true}, {"type": "double", "name":
+    "argue move", "required": true}, {"type": "double", "name": "arguing", "required":
+    true}, {"type": "double", "name": "arguing aging", "required": true}, {"type":
+    "double", "name": "arguing algorithmic", "required": true}, {"type": "double",
+    "name": "arguing antibiotic", "required": true}, {"type": "double", "name": "arguing
+    autonomous", "required": true}, {"type": "double", "name": "arguing biodiversity",
+    "required": true}, {"type": "double", "name": "arguing climate", "required": true},
+    {"type": "double", "name": "arguing cryptocurrency", "required": true}, {"type":
+    "double", "name": "arguing cybersecurity", "required": true}, {"type": "double",
+    "name": "arguing data", "required": true}, {"type": "double", "name": "arguing
+    digital", "required": true}, {"type": "double", "name": "arguing economic", "required":
+    true}, {"type": "double", "name": "arguing education", "required": true}, {"type":
+    "double", "name": "arguing election", "required": true}, {"type": "double", "name":
+    "arguing food", "required": true}, {"type": "double", "name": "arguing gene",
+    "required": true}, {"type": "double", "name": "arguing genomic", "required": true},
+    {"type": "double", "name": "arguing gig", "required": true}, {"type": "double",
+    "name": "arguing mental", "required": true}, {"type": "double", "name": "arguing
+    nuclear", "required": true}, {"type": "double", "name": "arguing remote", "required":
+    true}, {"type": "double", "name": "arguing renewable", "required": true}, {"type":
+    "double", "name": "arguing social", "required": true}, {"type": "double", "name":
+    "arguing student", "required": true}, {"type": "double", "name": "arguing water",
+    "required": true}, {"type": "double", "name": "around", "required": true}, {"type":
+    "double", "name": "around aging", "required": true}, {"type": "double", "name":
+    "around algorithmic", "required": true}, {"type": "double", "name": "around antibiotic",
+    "required": true}, {"type": "double", "name": "around artificial", "required":
+    true}, {"type": "double", "name": "around biodiversity", "required": true}, {"type":
+    "double", "name": "around climate", "required": true}, {"type": "double", "name":
+    "around cryptocurrency", "required": true}, {"type": "double", "name": "around
+    cybersecurity", "required": true}, {"type": "double", "name": "around data", "required":
+    true}, {"type": "double", "name": "around digital", "required": true}, {"type":
+    "double", "name": "around economic", "required": true}, {"type": "double", "name":
+    "around food", "required": true}, {"type": "double", "name": "around genomic",
+    "required": true}, {"type": "double", "name": "around gig", "required": true},
+    {"type": "double", "name": "around nuclear", "required": true}, {"type": "double",
+    "name": "around public", "required": true}, {"type": "double", "name": "around
+    remote", "required": true}, {"type": "double", "name": "around renewable", "required":
+    true}, {"type": "double", "name": "around social", "required": true}, {"type":
+    "double", "name": "around space", "required": true}, {"type": "double", "name":
+    "around supply", "required": true}, {"type": "double", "name": "around urban",
+    "required": true}, {"type": "double", "name": "around vaccine", "required": true},
+    {"type": "double", "name": "around water", "required": true}, {"type": "double",
+    "name": "article", "required": true}, {"type": "double", "name": "article aging",
+    "required": true}, {"type": "double", "name": "article algorithmic", "required":
+    true}, {"type": "double", "name": "article artificial", "required": true}, {"type":
+    "double", "name": "article biodiversity", "required": true}, {"type": "double",
+    "name": "article challenge", "required": true}, {"type": "double", "name": "article
+    climate", "required": true}, {"type": "double", "name": "article data", "required":
+    true}, {"type": "double", "name": "article economic", "required": true}, {"type":
+    "double", "name": "article election", "required": true}, {"type": "double", "name":
+    "article food", "required": true}, {"type": "double", "name": "article genomic",
+    "required": true}, {"type": "double", "name": "article gig", "required": true},
+    {"type": "double", "name": "article nuclear", "required": true}, {"type": "double",
+    "name": "article remote", "required": true}, {"type": "double", "name": "article
+    renewable", "required": true}, {"type": "double", "name": "article social", "required":
+    true}, {"type": "double", "name": "article space", "required": true}, {"type":
+    "double", "name": "article student", "required": true}, {"type": "double", "name":
+    "article urban", "required": true}, {"type": "double", "name": "article water",
+    "required": true}, {"type": "double", "name": "artificial", "required": true},
+    {"type": "double", "name": "artificial intelligence", "required": true}, {"type":
+    "double", "name": "asked", "required": true}, {"type": "double", "name": "asked
+    remain", "required": true}, {"type": "double", "name": "assess", "required": true},
+    {"type": "double", "name": "assess causal", "required": true}, {"type": "double",
+    "name": "association", "required": true}, {"type": "double", "name": "association
+    key", "required": true}, {"type": "double", "name": "assumption", "required":
+    true}, {"type": "double", "name": "assumption call", "required": true}, {"type":
+    "double", "name": "assumption highly", "required": true}, {"type": "double", "name":
+    "assumption official", "required": true}, {"type": "double", "name": "attention",
+    "required": true}, {"type": "double", "name": "attention analyst", "required":
+    true}, {"type": "double", "name": "attention international", "required": true},
+    {"type": "double", "name": "attention rn", "required": true}, {"type": "double",
+    "name": "attention weve", "required": true}, {"type": "double", "name": "authority",
+    "required": true}, {"type": "double", "name": "authority responding", "required":
+    true}, {"type": "double", "name": "autonomous", "required": true}, {"type": "double",
+    "name": "autonomous vehicle", "required": true}, {"type": "double", "name": "awareness",
+    "required": true}, {"type": "double", "name": "awareness campaign", "required":
+    true}, {"type": "double", "name": "away", "required": true}, {"type": "double",
+    "name": "away genuinely", "required": true}, {"type": "double", "name": "baffled",
+    "required": true}, {"type": "double", "name": "baffled people", "required": true},
+    {"type": "double", "name": "become", "required": true}, {"type": "double", "name":
+    "become exhausting", "required": true}, {"type": "double", "name": "began", "required":
+    true}, {"type": "double", "name": "began niche", "required": true}, {"type": "double",
+    "name": "best", "required": true}, {"type": "double", "name": "best practice",
+    "required": true}, {"type": "double", "name": "better", "required": true}, {"type":
+    "double", "name": "better conversation", "required": true}, {"type": "double",
+    "name": "bias", "required": true}, {"type": "double", "name": "bias hiring", "required":
+    true}, {"type": "double", "name": "bigger", "required": true}, {"type": "double",
+    "name": "bigger realize", "required": true}, {"type": "double", "name": "biodiversity",
+    "required": true}, {"type": "double", "name": "biodiversity loss", "required":
+    true}, {"type": "double", "name": "body", "required": true}, {"type": "double",
+    "name": "body literature", "required": true}, {"type": "double", "name": "body
+    research", "required": true}, {"type": "double", "name": "breaking", "required":
+    true}, {"type": "double", "name": "breaking aging", "required": true}, {"type":
+    "double", "name": "breaking algorithmic", "required": true}, {"type": "double",
+    "name": "breaking antibiotic", "required": true}, {"type": "double", "name": "breaking
+    artificial", "required": true}, {"type": "double", "name": "breaking autonomous",
+    "required": true}, {"type": "double", "name": "breaking biodiversity", "required":
+    true}, {"type": "double", "name": "breaking climate", "required": true}, {"type":
+    "double", "name": "breaking cryptocurrency", "required": true}, {"type": "double",
+    "name": "breaking cybersecurity", "required": true}, {"type": "double", "name":
+    "breaking data", "required": true}, {"type": "double", "name": "breaking digital",
+    "required": true}, {"type": "double", "name": "breaking economic", "required":
+    true}, {"type": "double", "name": "breaking education", "required": true}, {"type":
+    "double", "name": "breaking election", "required": true}, {"type": "double", "name":
+    "breaking food", "required": true}, {"type": "double", "name": "breaking gene",
+    "required": true}, {"type": "double", "name": "breaking genomic", "required":
+    true}, {"type": "double", "name": "breaking gig", "required": true}, {"type":
+    "double", "name": "breaking mental", "required": true}, {"type": "double", "name":
+    "breaking public", "required": true}, {"type": "double", "name": "breaking renewable",
+    "required": true}, {"type": "double", "name": "breaking social", "required": true},
+    {"type": "double", "name": "breaking space", "required": true}, {"type": "double",
+    "name": "breaking supply", "required": true}, {"type": "double", "name": "breaking
+    urban", "required": true}, {"type": "double", "name": "breaking vaccine", "required":
+    true}, {"type": "double", "name": "breaking water", "required": true}, {"type":
+    "double", "name": "breakthrough", "required": true}, {"type": "double", "name":
+    "breakthrough academic", "required": true}, {"type": "double", "name": "breakthrough
+    actually", "required": true}, {"type": "double", "name": "breakthrough become",
+    "required": true}, {"type": "double", "name": "breakthrough broader", "required":
+    true}, {"type": "double", "name": "breakthrough came", "required": true}, {"type":
+    "double", "name": "breakthrough complicated", "required": true}, {"type": "double",
+    "name": "breakthrough critical", "required": true}, {"type": "double", "name":
+    "breakthrough emergency", "required": true}, {"type": "double", "name": "breakthrough
+    emerging", "required": true}, {"type": "double", "name": "breakthrough employing",
+    "required": true}, {"type": "double", "name": "breakthrough encouraging", "required":
+    true}, {"type": "double", "name": "breakthrough evolved", "required": true}, {"type":
+    "double", "name": "breakthrough fine", "required": true}, {"type": "double", "name":
+    "breakthrough honestly", "required": true}, {"type": "double", "name": "breakthrough
+    keep", "required": true}, {"type": "double", "name": "breakthrough largely", "required":
+    true}, {"type": "double", "name": "breakthrough lately", "required": true}, {"type":
+    "double", "name": "breakthrough occupies", "required": true}, {"type": "double",
+    "name": "breakthrough present", "required": true}, {"type": "double", "name":
+    "breakthrough really", "required": true}, {"type": "double", "name": "breakthrough
+    reported", "required": true}, {"type": "double", "name": "breakthrough researcher",
+    "required": true}, {"type": "double", "name": "breakthrough sec", "required":
+    true}, {"type": "double", "name": "breakthrough source", "required": true}, {"type":
+    "double", "name": "breakthrough there", "required": true}, {"type": "double",
+    "name": "breakthrough uncovered", "required": true}, {"type": "double", "name":
+    "breakthrough within", "required": true}, {"type": "double", "name": "broader",
+    "required": true}, {"type": "double", "name": "broader context", "required": true},
+    {"type": "double", "name": "broader societal", "required": true}, {"type": "double",
+    "name": "call", "required": true}, {"type": "double", "name": "call nuanced",
+    "required": true}, {"type": "double", "name": "calling", "required": true}, {"type":
+    "double", "name": "calling coordinated", "required": true}, {"type": "double",
+    "name": "calm", "required": true}, {"type": "double", "name": "calm need", "required":
+    true}, {"type": "double", "name": "came", "required": true}, {"type": "double",
+    "name": "came across", "required": true}, {"type": "double", "name": "came away",
+    "required": true}, {"type": "double", "name": "came week", "required": true},
+    {"type": "double", "name": "campaign", "required": true}, {"type": "double", "name":
+    "campaign actually", "required": true}, {"type": "double", "name": "campaign broader",
+    "required": true}, {"type": "double", "name": "campaign complicated", "required":
+    true}, {"type": "double", "name": "campaign continue", "required": true}, {"type":
+    "double", "name": "campaign critical", "required": true}, {"type": "double", "name":
+    "campaign drawn", "required": true}, {"type": "double", "name": "campaign emergency",
+    "required": true}, {"type": "double", "name": "campaign emerging", "required":
+    true}, {"type": "double", "name": "campaign evolved", "required": true}, {"type":
+    "double", "name": "campaign fine", "required": true}, {"type": "double", "name":
+    "campaign happened", "required": true}, {"type": "double", "name": "campaign honestly",
+    "required": true}, {"type": "double", "name": "campaign keep", "required": true},
+    {"type": "double", "name": "campaign largely", "required": true}, {"type": "double",
+    "name": "campaign lately", "required": true}, {"type": "double", "name": "campaign
+    noting", "required": true}, {"type": "double", "name": "campaign occupies", "required":
+    true}, {"type": "double", "name": "campaign predominantly", "required": true},
+    {"type": "double", "name": "campaign reported", "required": true}, {"type": "double",
+    "name": "campaign researcher", "required": true}, {"type": "double", "name": "campaign
+    sec", "required": true}, {"type": "double", "name": "campaign source", "required":
+    true}, {"type": "double", "name": "campaign uncovered", "required": true}, {"type":
+    "double", "name": "campaign within", "required": true}, {"type": "double", "name":
+    "capture", "required": true}, {"type": "double", "name": "capture quantitative",
+    "required": true}, {"type": "double", "name": "case", "required": true}, {"type":
+    "double", "name": "case across", "required": true}, {"type": "double", "name":
+    "case analysis", "required": true}, {"type": "double", "name": "causal", "required":
+    true}, {"type": "double", "name": "causal inference", "required": true}, {"type":
+    "double", "name": "causal mechanism", "required": true}, {"type": "double", "name":
+    "causality", "required": true}, {"type": "double", "name": "causality established",
+    "required": true}, {"type": "double", "name": "cause", "required": true}, {"type":
+    "double", "name": "cause stakeholder", "required": true}, {"type": "double", "name":
+    "cautiously", "required": true}, {"type": "double", "name": "cautiously optimistic",
+    "required": true}, {"type": "double", "name": "chain", "required": true}, {"type":
+    "double", "name": "chain disruption", "required": true}, {"type": "double", "name":
+    "challenge", "required": true}, {"type": "double", "name": "challenge academic",
+    "required": true}, {"type": "double", "name": "challenge actually", "required":
+    true}, {"type": "double", "name": "challenge announcement", "required": true},
+    {"type": "double", "name": "challenge become", "required": true}, {"type": "double",
+    "name": "challenge broader", "required": true}, {"type": "double", "name": "challenge
+    came", "required": true}, {"type": "double", "name": "challenge complicated",
+    "required": true}, {"type": "double", "name": "challenge continue", "required":
+    true}, {"type": "double", "name": "challenge conventional", "required": true},
+    {"type": "double", "name": "challenge critical", "required": true}, {"type": "double",
+    "name": "challenge decade", "required": true}, {"type": "double", "name": "challenge
+    dominant", "required": true}, {"type": "double", "name": "challenge drawn", "required":
+    true}, {"type": "double", "name": "challenge emergency", "required": true}, {"type":
+    "double", "name": "challenge emerging", "required": true}, {"type": "double",
+    "name": "challenge employing", "required": true}, {"type": "double", "name": "challenge
+    encouraging", "required": true}, {"type": "double", "name": "challenge evolved",
+    "required": true}, {"type": "double", "name": "challenge existing", "required":
+    true}, {"type": "double", "name": "challenge fine", "required": true}, {"type":
+    "double", "name": "challenge happened", "required": true}, {"type": "double",
+    "name": "challenge honestly", "required": true}, {"type": "double", "name": "challenge
+    intensified", "required": true}, {"type": "double", "name": "challenge keep",
+    "required": true}, {"type": "double", "name": "challenge largely", "required":
+    true}, {"type": "double", "name": "challenge lately", "required": true}, {"type":
+    "double", "name": "challenge noting", "required": true}, {"type": "double", "name":
+    "challenge occupies", "required": true}, {"type": "double", "name": "challenge
+    official", "required": true}, {"type": "double", "name": "challenge predominantly",
+    "required": true}, {"type": "double", "name": "challenge present", "required":
+    true}, {"type": "double", "name": "challenge real", "required": true}, {"type":
+    "double", "name": "challenge really", "required": true}, {"type": "double", "name":
+    "challenge reductive", "required": true}, {"type": "double", "name": "challenge
+    reported", "required": true}, {"type": "double", "name": "challenge researcher",
+    "required": true}, {"type": "double", "name": "challenge sec", "required": true},
+    {"type": "double", "name": "challenge source", "required": true}, {"type": "double",
+    "name": "challenge there", "required": true}, {"type": "double", "name": "challenge
+    uncovered", "required": true}, {"type": "double", "name": "challenge within",
+    "required": true}, {"type": "double", "name": "change", "required": true}, {"type":
+    "double", "name": "change adaptation", "required": true}, {"type": "double", "name":
+    "change policy", "required": true}, {"type": "double", "name": "cited", "required":
+    true}, {"type": "double", "name": "cited essential", "required": true}, {"type":
+    "double", "name": "climate", "required": true}, {"type": "double", "name": "climate
+    change", "required": true}, {"type": "double", "name": "close", "required": true},
+    {"type": "double", "name": "close matter", "required": true}, {"type": "double",
+    "name": "closely", "required": true}, {"type": "double", "name": "closely watching",
+    "required": true}, {"type": "double", "name": "coalition", "required": true},
+    {"type": "double", "name": "coalition researcher", "required": true}, {"type":
+    "double", "name": "cohort", "required": true}, {"type": "double", "name": "cohort
+    study", "required": true}, {"type": "double", "name": "collaborated", "required":
+    true}, {"type": "double", "name": "collaborated finding", "required": true}, {"type":
+    "double", "name": "coming", "required": true}, {"type": "double", "name": "coming
+    every", "required": true}, {"type": "double", "name": "comment", "required": true},
+    {"type": "double", "name": "community", "required": true}, {"type": "double",
+    "name": "community latest", "required": true}, {"type": "double", "name": "community
+    lead", "required": true}, {"type": "double", "name": "comparative", "required":
+    true}, {"type": "double", "name": "comparative case", "required": true}, {"type":
+    "double", "name": "compelling", "required": true}, {"type": "double", "name":
+    "competing", "required": true}, {"type": "double", "name": "competing interpretation",
+    "required": true}, {"type": "double", "name": "competing school", "required":
+    true}, {"type": "double", "name": "completely", "required": true}, {"type": "double",
+    "name": "completely missing", "required": true}, {"type": "double", "name": "complex",
+    "required": true}, {"type": "double", "name": "complex initially", "required":
+    true}, {"type": "double", "name": "complexity", "required": true}, {"type": "double",
+    "name": "complexity instead", "required": true}, {"type": "double", "name": "complicated",
+    "required": true}, {"type": "double", "name": "complicated anyone", "required":
+    true}, {"type": "double", "name": "comprehensive", "required": true}, {"type":
+    "double", "name": "comprehensive new", "required": true}, {"type": "double", "name":
+    "concept", "required": true}, {"type": "double", "name": "concept aging", "required":
+    true}, {"type": "double", "name": "concept algorithmic", "required": true}, {"type":
+    "double", "name": "concept antibiotic", "required": true}, {"type": "double",
+    "name": "concept artificial", "required": true}, {"type": "double", "name": "concept
+    autonomous", "required": true}, {"type": "double", "name": "concept biodiversity",
+    "required": true}, {"type": "double", "name": "concept climate", "required": true},
+    {"type": "double", "name": "concept cryptocurrency", "required": true}, {"type":
+    "double", "name": "concept cybersecurity", "required": true}, {"type": "double",
+    "name": "concept education", "required": true}, {"type": "double", "name": "concept
+    election", "required": true}, {"type": "double", "name": "concept gene", "required":
+    true}, {"type": "double", "name": "concept genomic", "required": true}, {"type":
+    "double", "name": "concept gig", "required": true}, {"type": "double", "name":
+    "concept mental", "required": true}, {"type": "double", "name": "concept nuclear",
+    "required": true}, {"type": "double", "name": "concept public", "required": true},
+    {"type": "double", "name": "concept remote", "required": true}, {"type": "double",
+    "name": "concept space", "required": true}, {"type": "double", "name": "concept
+    supply", "required": true}, {"type": "double", "name": "concept urban", "required":
+    true}, {"type": "double", "name": "concept vaccine", "required": true}, {"type":
+    "double", "name": "concern", "required": true}, {"type": "double", "name": "concern
+    academic", "required": true}, {"type": "double", "name": "concern aging", "required":
+    true}, {"type": "double", "name": "concern announcement", "required": true}, {"type":
+    "double", "name": "concern antibiotic", "required": true}, {"type": "double",
+    "name": "concern artificial", "required": true}, {"type": "double", "name": "concern
+    autonomous", "required": true}, {"type": "double", "name": "concern biodiversity",
+    "required": true}, {"type": "double", "name": "concern broader", "required": true},
+    {"type": "double", "name": "concern complicated", "required": true}, {"type":
+    "double", "name": "concern continue", "required": true}, {"type": "double", "name":
+    "concern critical", "required": true}, {"type": "double", "name": "concern economic",
+    "required": true}, {"type": "double", "name": "concern education", "required":
+    true}, {"type": "double", "name": "concern election", "required": true}, {"type":
+    "double", "name": "concern emergency", "required": true}, {"type": "double", "name":
+    "concern encouraging", "required": true}, {"type": "double", "name": "concern
+    evolved", "required": true}, {"type": "double", "name": "concern fine", "required":
+    true}, {"type": "double", "name": "concern food", "required": true}, {"type":
+    "double", "name": "concern gig", "required": true}, {"type": "double", "name":
+    "concern happened", "required": true}, {"type": "double", "name": "concern honestly",
+    "required": true}, {"type": "double", "name": "concern keep", "required": true},
+    {"type": "double", "name": "concern largely", "required": true}, {"type": "double",
+    "name": "concern mental", "required": true}, {"type": "double", "name": "concern
+    nuclear", "required": true}, {"type": "double", "name": "concern occupies", "required":
+    true}, {"type": "double", "name": "concern paper", "required": true}, {"type":
+    "double", "name": "concern predominantly", "required": true}, {"type": "double",
+    "name": "concern public", "required": true}, {"type": "double", "name": "concern
+    really", "required": true}, {"type": "double", "name": "concern renewable", "required":
+    true}, {"type": "double", "name": "concern researcher", "required": true}, {"type":
+    "double", "name": "concern sec", "required": true}, {"type": "double", "name":
+    "concern social", "required": true}, {"type": "double", "name": "concern source",
+    "required": true}, {"type": "double", "name": "concern space", "required": true},
+    {"type": "double", "name": "concern supply", "required": true}, {"type": "double",
+    "name": "concern there", "required": true}, {"type": "double", "name": "concern
+    urban", "required": true}, {"type": "double", "name": "concern vaccine", "required":
+    true}, {"type": "double", "name": "concern water", "required": true}, {"type":
+    "double", "name": "concern within", "required": true}, {"type": "double", "name":
+    "concerned", "required": true}, {"type": "double", "name": "concerned tbh", "required":
+    true}, {"type": "double", "name": "concluding", "required": true}, {"type": "double",
+    "name": "concluding section", "required": true}, {"type": "double", "name": "conference",
+    "required": true}, {"type": "double", "name": "conference expected", "required":
+    true}, {"type": "double", "name": "confirmed", "required": true}, {"type": "double",
+    "name": "confirmed friday", "required": true}, {"type": "double", "name": "confirmed
+    monday", "required": true}, {"type": "double", "name": "confirmed thursday", "required":
+    true}, {"type": "double", "name": "confirmed tuesday", "required": true}, {"type":
+    "double", "name": "confirmed wednesday", "required": true}, {"type": "double",
+    "name": "considerably", "required": true}, {"type": "double", "name": "considerably
+    past", "required": true}, {"type": "double", "name": "consultation", "required":
+    true}, {"type": "double", "name": "contemporary", "required": true}, {"type":
+    "double", "name": "contemporary scholarly", "required": true}, {"type": "double",
+    "name": "contested", "required": true}, {"type": "double", "name": "contested
+    space", "required": true}, {"type": "double", "name": "context", "required": true},
+    {"type": "double", "name": "context systemic", "required": true}, {"type": "double",
+    "name": "contextual", "required": true}, {"type": "double", "name": "contextual
+    variability", "required": true}, {"type": "double", "name": "continue", "required":
+    true}, {"type": "double", "name": "continue mount", "required": true}, {"type":
+    "double", "name": "contribute", "required": true}, {"type": "double", "name":
+    "contribute evolving", "required": true}, {"type": "double", "name": "contributes",
+    "required": true}, {"type": "double", "name": "contributes literature", "required":
+    true}, {"type": "double", "name": "conventional", "required": true}, {"type":
+    "double", "name": "conventional assumption", "required": true}, {"type": "double",
+    "name": "converging", "required": true}, {"type": "double", "name": "converging
+    theme", "required": true}, {"type": "double", "name": "conversation", "required":
+    true}, {"type": "double", "name": "conversation aging", "required": true}, {"type":
+    "double", "name": "conversation around", "required": true}, {"type": "double",
+    "name": "conversation artificial", "required": true}, {"type": "double", "name":
+    "conversation autonomous", "required": true}, {"type": "double", "name": "conversation
+    climate", "required": true}, {"type": "double", "name": "conversation cryptocurrency",
+    "required": true}, {"type": "double", "name": "conversation data", "required":
+    true}, {"type": "double", "name": "conversation election", "required": true},
+    {"type": "double", "name": "conversation food", "required": true}, {"type": "double",
+    "name": "conversation fr", "required": true}, {"type": "double", "name": "conversation
+    gene", "required": true}, {"type": "double", "name": "conversation genomic", "required":
+    true}, {"type": "double", "name": "conversation gig", "required": true}, {"type":
+    "double", "name": "conversation nuclear", "required": true}, {"type": "double",
+    "name": "conversation polarization", "required": true}, {"type": "double", "name":
+    "conversation public", "required": true}, {"type": "double", "name": "conversation
+    renewable", "required": true}, {"type": "double", "name": "conversation social",
+    "required": true}, {"type": "double", "name": "conversation student", "required":
+    true}, {"type": "double", "name": "conversation supply", "required": true}, {"type":
+    "double", "name": "conversation urban", "required": true}, {"type": "double",
+    "name": "conversation vaccine", "required": true}, {"type": "double", "name":
+    "conversation water", "required": true}, {"type": "double", "name": "cooperation",
+    "required": true}, {"type": "double", "name": "cooperation cited", "required":
+    true}, {"type": "double", "name": "coordinated", "required": true}, {"type": "double",
+    "name": "coordinated response", "required": true}, {"type": "double", "name":
+    "correlation", "required": true}, {"type": "double", "name": "correlation though",
+    "required": true}, {"type": "double", "name": "could", "required": true}, {"type":
+    "double", "name": "could farreaching", "required": true}, {"type": "double", "name":
+    "crisis", "required": true}, {"type": "double", "name": "crisis actually", "required":
+    true}, {"type": "double", "name": "crisis announcement", "required": true}, {"type":
+    "double", "name": "crisis broader", "required": true}, {"type": "double", "name":
+    "crisis complicated", "required": true}, {"type": "double", "name": "crisis critical",
+    "required": true}, {"type": "double", "name": "crisis emergency", "required":
+    true}, {"type": "double", "name": "crisis emerging", "required": true}, {"type":
+    "double", "name": "crisis encouraging", "required": true}, {"type": "double",
+    "name": "crisis fine", "required": true}, {"type": "double", "name": "crisis happened",
+    "required": true}, {"type": "double", "name": "crisis honestly", "required": true},
+    {"type": "double", "name": "crisis keep", "required": true}, {"type": "double",
+    "name": "crisis largely", "required": true}, {"type": "double", "name": "crisis
+    lately", "required": true}, {"type": "double", "name": "crisis noting", "required":
+    true}, {"type": "double", "name": "crisis really", "required": true}, {"type":
+    "double", "name": "crisis reported", "required": true}, {"type": "double", "name":
+    "crisis researcher", "required": true}, {"type": "double", "name": "crisis there",
+    "required": true}, {"type": "double", "name": "crisis uncovered", "required":
+    true}, {"type": "double", "name": "crisis within", "required": true}, {"type":
+    "double", "name": "critic", "required": true}, {"type": "double", "name": "critic
+    argue", "required": true}, {"type": "double", "name": "critical", "required":
+    true}, {"type": "double", "name": "critical lens", "required": true}, {"type":
+    "double", "name": "crosssectional", "required": true}, {"type": "double", "name":
+    "crosssectional design", "required": true}, {"type": "double", "name": "cryptocurrency",
+    "required": true}, {"type": "double", "name": "cryptocurrency market", "required":
+    true}, {"type": "double", "name": "current", "required": true}, {"type": "double",
+    "name": "current evidencebased", "required": true}, {"type": "double", "name":
+    "cybersecurity", "required": true}, {"type": "double", "name": "cybersecurity
+    threat", "required": true}, {"type": "double", "name": "data", "required": true},
+    {"type": "double", "name": "data algorithmic", "required": true}, {"type": "double",
+    "name": "data alone", "required": true}, {"type": "double", "name": "data artificial",
+    "required": true}, {"type": "double", "name": "data biodiversity", "required":
+    true}, {"type": "double", "name": "data climate", "required": true}, {"type":
+    "double", "name": "data cybersecurity", "required": true}, {"type": "double",
+    "name": "data economic", "required": true}, {"type": "double", "name": "data education",
+    "required": true}, {"type": "double", "name": "data food", "required": true},
+    {"type": "double", "name": "data gene", "required": true}, {"type": "double",
+    "name": "data genomic", "required": true}, {"type": "double", "name": "data mental",
+    "required": true}, {"type": "double", "name": "data nuclear", "required": true},
+    {"type": "double", "name": "data privacy", "required": true}, {"type": "double",
+    "name": "data reviewed", "required": true}, {"type": "double", "name": "data social",
+    "required": true}, {"type": "double", "name": "data student", "required": true},
+    {"type": "double", "name": "data suggest", "required": true}, {"type": "double",
+    "name": "data urban", "required": true}, {"type": "double", "name": "data vaccine",
+    "required": true}, {"type": "double", "name": "dataset", "required": true}, {"type":
+    "double", "name": "dataset case", "required": true}, {"type": "double", "name":
+    "debate", "required": true}, {"type": "double", "name": "debate academic", "required":
+    true}, {"type": "double", "name": "debate announcement", "required": true}, {"type":
+    "double", "name": "debate broader", "required": true}, {"type": "double", "name":
+    "debate came", "required": true}, {"type": "double", "name": "debate complicated",
+    "required": true}, {"type": "double", "name": "debate continue", "required": true},
+    {"type": "double", "name": "debate critical", "required": true}, {"type": "double",
+    "name": "debate drawn", "required": true}, {"type": "double", "name": "debate
+    emergency", "required": true}, {"type": "double", "name": "debate emerging", "required":
+    true}, {"type": "double", "name": "debate evolved", "required": true}, {"type":
+    "double", "name": "debate fine", "required": true}, {"type": "double", "name":
+    "debate happened", "required": true}, {"type": "double", "name": "debate honestly",
+    "required": true}, {"type": "double", "name": "debate identifies", "required":
+    true}, {"type": "double", "name": "debate keep", "required": true}, {"type": "double",
+    "name": "debate largely", "required": true}, {"type": "double", "name": "debate
+    lately", "required": true}, {"type": "double", "name": "debate noting", "required":
+    true}, {"type": "double", "name": "debate occupies", "required": true}, {"type":
+    "double", "name": "debate predominantly", "required": true}, {"type": "double",
+    "name": "debate present", "required": true}, {"type": "double", "name": "debate
+    reflects", "required": true}, {"type": "double", "name": "debate researcher",
+    "required": true}, {"type": "double", "name": "debate sec", "required": true},
+    {"type": "double", "name": "debate source", "required": true}, {"type": "double",
+    "name": "debate there", "required": true}, {"type": "double", "name": "debate
+    uncovered", "required": true}, {"type": "double", "name": "debate within", "required":
+    true}, {"type": "double", "name": "debt", "required": true}, {"type": "double",
+    "name": "debt crisis", "required": true}, {"type": "double", "name": "decade",
+    "required": true}, {"type": "double", "name": "decade began", "required": true},
+    {"type": "double", "name": "decade expert", "required": true}, {"type": "double",
+    "name": "declined", "required": true}, {"type": "double", "name": "declined comment",
+    "required": true}, {"type": "double", "name": "deeper", "required": true}, {"type":
+    "double", "name": "deeper tension", "required": true}, {"type": "double", "name":
+    "defining", "required": true}, {"type": "double", "name": "defining challenge",
+    "required": true}, {"type": "double", "name": "design", "required": true}, {"type":
+    "double", "name": "design limiting", "required": true}, {"type": "double", "name":
+    "despite", "required": true}, {"type": "double", "name": "despite growing", "required":
+    true}, {"type": "double", "name": "detail", "required": true}, {"type": "double",
+    "name": "detail challenge", "required": true}, {"type": "double", "name": "determinant",
+    "required": true}, {"type": "double", "name": "determinant article", "required":
+    true}, {"type": "double", "name": "determine", "required": true}, {"type": "double",
+    "name": "determine next", "required": true}, {"type": "double", "name": "developed",
+    "required": true}, {"type": "double", "name": "developed rapidly", "required":
+    true}, {"type": "double", "name": "developing", "required": true}, {"type": "double",
+    "name": "developing nation", "required": true}, {"type": "double", "name": "development",
+    "required": true}, {"type": "double", "name": "development applied", "required":
+    true}, {"type": "double", "name": "development related", "required": true}, {"type":
+    "double", "name": "development surrounding", "required": true}, {"type": "double",
+    "name": "dialogue", "required": true}, {"type": "double", "name": "dialogue determine",
+    "required": true}, {"type": "double", "name": "digital", "required": true}, {"type":
+    "double", "name": "digital divide", "required": true}, {"type": "double", "name":
+    "dimension", "required": true}, {"type": "double", "name": "dimension aging",
+    "required": true}, {"type": "double", "name": "dimension artificial", "required":
+    true}, {"type": "double", "name": "dimension biodiversity", "required": true},
+    {"type": "double", "name": "dimension climate", "required": true}, {"type": "double",
+    "name": "dimension cybersecurity", "required": true}, {"type": "double", "name":
+    "dimension data", "required": true}, {"type": "double", "name": "dimension digital",
+    "required": true}, {"type": "double", "name": "dimension economic", "required":
+    true}, {"type": "double", "name": "dimension food", "required": true}, {"type":
+    "double", "name": "dimension genomic", "required": true}, {"type": "double", "name":
+    "dimension gig", "required": true}, {"type": "double", "name": "dimension public",
+    "required": true}, {"type": "double", "name": "dimension remote", "required":
+    true}, {"type": "double", "name": "dimension social", "required": true}, {"type":
+    "double", "name": "dimension space", "required": true}, {"type": "double", "name":
+    "dimension supply", "required": true}, {"type": "double", "name": "dimension urban",
+    "required": true}, {"type": "double", "name": "dimension vaccine", "required":
+    true}, {"type": "double", "name": "dimension water", "required": true}, {"type":
+    "double", "name": "discourse", "required": true}, {"type": "double", "name": "discourse
+    around", "required": true}, {"type": "double", "name": "discourse divergent",
+    "required": true}, {"type": "double", "name": "discourse get", "required": true},
+    {"type": "double", "name": "discus", "required": true}, {"type": "double", "name":
+    "discus youre", "required": true}, {"type": "double", "name": "discussed", "required":
+    true}, {"type": "double", "name": "discussed concluding", "required": true}, {"type":
+    "double", "name": "disruption", "required": true}, {"type": "double", "name":
+    "disruption academic", "required": true}, {"type": "double", "name": "disruption
+    actually", "required": true}, {"type": "double", "name": "disruption announcement",
+    "required": true}, {"type": "double", "name": "disruption complicated", "required":
+    true}, {"type": "double", "name": "disruption continue", "required": true}, {"type":
+    "double", "name": "disruption critical", "required": true}, {"type": "double",
+    "name": "disruption drawn", "required": true}, {"type": "double", "name": "disruption
+    emergency", "required": true}, {"type": "double", "name": "disruption employing",
+    "required": true}, {"type": "double", "name": "disruption encouraging", "required":
+    true}, {"type": "double", "name": "disruption evolved", "required": true}, {"type":
+    "double", "name": "disruption happened", "required": true}, {"type": "double",
+    "name": "disruption honestly", "required": true}, {"type": "double", "name": "disruption
+    intensified", "required": true}, {"type": "double", "name": "disruption keep",
+    "required": true}, {"type": "double", "name": "disruption largely", "required":
+    true}, {"type": "double", "name": "disruption lately", "required": true}, {"type":
+    "double", "name": "disruption noting", "required": true}, {"type": "double", "name":
+    "disruption occupies", "required": true}, {"type": "double", "name": "disruption
+    predominantly", "required": true}, {"type": "double", "name": "disruption reported",
+    "required": true}, {"type": "double", "name": "disruption researcher", "required":
+    true}, {"type": "double", "name": "disruption source", "required": true}, {"type":
+    "double", "name": "disruption there", "required": true}, {"type": "double", "name":
+    "disruption uncovered", "required": true}, {"type": "double", "name": "disruption
+    within", "required": true}, {"type": "double", "name": "distribution", "required":
+    true}, {"type": "double", "name": "distribution challenge", "required": true},
+    {"type": "double", "name": "divergent", "required": true}, {"type": "double",
+    "name": "divergent theoretical", "required": true}, {"type": "double", "name":
+    "divide", "required": true}, {"type": "double", "name": "divide rural", "required":
+    true}, {"type": "double", "name": "divided", "required": true}, {"type": "double",
+    "name": "divided along", "required": true}, {"type": "double", "name": "document",
+    "required": true}, {"type": "double", "name": "document highlight", "required":
+    true}, {"type": "double", "name": "document obtained", "required": true}, {"type":
+    "double", "name": "dominant", "required": true}, {"type": "double", "name": "dominant
+    assumption", "required": true}, {"type": "double", "name": "drawing", "required":
+    true}, {"type": "double", "name": "drawing comparative", "required": true}, {"type":
+    "double", "name": "drawing empirical", "required": true}, {"type": "double", "name":
+    "drawing interdisciplinary", "required": true}, {"type": "double", "name": "drawn",
+    "required": true}, {"type": "double", "name": "drawn significant", "required":
+    true}, {"type": "double", "name": "easy", "required": true}, {"type": "double",
+    "name": "easy solution", "required": true}, {"type": "double", "name": "economic",
+    "required": true}, {"type": "double", "name": "economic inequality", "required":
+    true}, {"type": "double", "name": "economics", "required": true}, {"type": "double",
+    "name": "economics political", "required": true}, {"type": "double", "name": "economy",
+    "required": true}, {"type": "double", "name": "economy labor", "required": true},
+    {"type": "double", "name": "editing", "required": true}, {"type": "double", "name":
+    "editing ethic", "required": true}, {"type": "double", "name": "education", "required":
+    true}, {"type": "double", "name": "education reform", "required": true}, {"type":
+    "double", "name": "election", "required": true}, {"type": "double", "name": "election
+    integrity", "required": true}, {"type": "double", "name": "emergency", "required":
+    true}, {"type": "double", "name": "emergency service", "required": true}, {"type":
+    "double", "name": "emerges", "required": true}, {"type": "double", "name": "emerges
+    coalition", "required": true}, {"type": "double", "name": "emerging", "required":
+    true}, {"type": "double", "name": "emerging one", "required": true}, {"type":
+    "double", "name": "empirical", "required": true}, {"type": "double", "name": "empirical
+    evidence", "required": true}, {"type": "double", "name": "empirical finding",
+    "required": true}, {"type": "double", "name": "empirical investigation", "required":
+    true}, {"type": "double", "name": "employing", "required": true}, {"type": "double",
+    "name": "employing mixedmethods", "required": true}, {"type": "double", "name":
+    "encouraging", "required": true}, {"type": "double", "name": "encouraging see",
+    "required": true}, {"type": "double", "name": "energy", "required": true}, {"type":
+    "double", "name": "energy adoption", "required": true}, {"type": "double", "name":
+    "energy policy", "required": true}, {"type": "double", "name": "engaged", "required":
+    true}, {"type": "double", "name": "engaged dialogue", "required": true}, {"type":
+    "double", "name": "engaging", "required": true}, {"type": "double", "name": "engaging
+    seriously", "required": true}, {"type": "double", "name": "essential", "required":
+    true}, {"type": "double", "name": "essential meaningful", "required": true}, {"type":
+    "double", "name": "established", "required": true}, {"type": "double", "name":
+    "established observational", "required": true}, {"type": "double", "name": "ethic",
+    "required": true}, {"type": "double", "name": "ethic academic", "required": true},
+    {"type": "double", "name": "ethic actually", "required": true}, {"type": "double",
+    "name": "ethic announcement", "required": true}, {"type": "double", "name": "ethic
+    broader", "required": true}, {"type": "double", "name": "ethic came", "required":
+    true}, {"type": "double", "name": "ethic complicated", "required": true}, {"type":
+    "double", "name": "ethic critical", "required": true}, {"type": "double", "name":
+    "ethic drawn", "required": true}, {"type": "double", "name": "ethic emergency",
+    "required": true}, {"type": "double", "name": "ethic emerging", "required": true},
+    {"type": "double", "name": "ethic encouraging", "required": true}, {"type": "double",
+    "name": "ethic evolved", "required": true}, {"type": "double", "name": "ethic
+    fine", "required": true}, {"type": "double", "name": "ethic happened", "required":
+    true}, {"type": "double", "name": "ethic honestly", "required": true}, {"type":
+    "double", "name": "ethic keep", "required": true}, {"type": "double", "name":
+    "ethic largely", "required": true}, {"type": "double", "name": "ethic lately",
+    "required": true}, {"type": "double", "name": "ethic noting", "required": true},
+    {"type": "double", "name": "ethic occupies", "required": true}, {"type": "double",
+    "name": "ethic predominantly", "required": true}, {"type": "double", "name": "ethic
+    present", "required": true}, {"type": "double", "name": "ethic reported", "required":
+    true}, {"type": "double", "name": "ethic researcher", "required": true}, {"type":
+    "double", "name": "ethic sec", "required": true}, {"type": "double", "name": "ethic
+    source", "required": true}, {"type": "double", "name": "ethic there", "required":
+    true}, {"type": "double", "name": "ethic uncovered", "required": true}, {"type":
+    "double", "name": "ethic within", "required": true}, {"type": "double", "name":
+    "event", "required": true}, {"type": "double", "name": "event mark", "required":
+    true}, {"type": "double", "name": "every", "required": true}, {"type": "double",
+    "name": "every time", "required": true}, {"type": "double", "name": "evidence",
+    "required": true}, {"type": "double", "name": "evidence emerges", "required":
+    true}, {"type": "double", "name": "evidence gathered", "required": true}, {"type":
+    "double", "name": "evidence stakeholder", "required": true}, {"type": "double",
+    "name": "evidencebased", "required": true}, {"type": "double", "name": "evidencebased
+    standard", "required": true}, {"type": "double", "name": "evolved", "required":
+    true}, {"type": "double", "name": "evolved considerably", "required": true}, {"type":
+    "double", "name": "evolving", "required": true}, {"type": "double", "name": "evolving
+    body", "required": true}, {"type": "double", "name": "examines", "required": true},
+    {"type": "double", "name": "examines aging", "required": true}, {"type": "double",
+    "name": "examines algorithmic", "required": true}, {"type": "double", "name":
+    "examines antibiotic", "required": true}, {"type": "double", "name": "examines
+    artificial", "required": true}, {"type": "double", "name": "examines autonomous",
+    "required": true}, {"type": "double", "name": "examines biodiversity", "required":
+    true}, {"type": "double", "name": "examines climate", "required": true}, {"type":
+    "double", "name": "examines cryptocurrency", "required": true}, {"type": "double",
+    "name": "examines cybersecurity", "required": true}, {"type": "double", "name":
+    "examines data", "required": true}, {"type": "double", "name": "examines digital",
+    "required": true}, {"type": "double", "name": "examines economic", "required":
+    true}, {"type": "double", "name": "examines education", "required": true}, {"type":
+    "double", "name": "examines election", "required": true}, {"type": "double", "name":
+    "examines food", "required": true}, {"type": "double", "name": "examines gene",
+    "required": true}, {"type": "double", "name": "examines genomic", "required":
+    true}, {"type": "double", "name": "examines gig", "required": true}, {"type":
+    "double", "name": "examines mental", "required": true}, {"type": "double", "name":
+    "examines nuclear", "required": true}, {"type": "double", "name": "examines public",
+    "required": true}, {"type": "double", "name": "examines remote", "required": true},
+    {"type": "double", "name": "examines renewable", "required": true}, {"type": "double",
+    "name": "examines social", "required": true}, {"type": "double", "name": "examines
+    space", "required": true}, {"type": "double", "name": "examines student", "required":
+    true}, {"type": "double", "name": "examines supply", "required": true}, {"type":
+    "double", "name": "examines urban", "required": true}, {"type": "double", "name":
+    "examines vaccine", "required": true}, {"type": "double", "name": "examines water",
+    "required": true}, {"type": "double", "name": "exhausting", "required": true},
+    {"type": "double", "name": "exhausting please", "required": true}, {"type": "double",
+    "name": "existing", "required": true}, {"type": "double", "name": "existing framework",
+    "required": true}, {"type": "double", "name": "existing literature", "required":
+    true}, {"type": "double", "name": "existing regulatory", "required": true}, {"type":
+    "double", "name": "expected", "required": true}, {"type": "double", "name": "expected
+    later", "required": true}, {"type": "double", "name": "expert", "required": true},
+    {"type": "double", "name": "expert leading", "required": true}, {"type": "double",
+    "name": "expert point", "required": true}, {"type": "double", "name": "expert
+    suggest", "required": true}, {"type": "double", "name": "explain", "required":
+    true}, {"type": "double", "name": "explain observed", "required": true}, {"type":
+    "double", "name": "exploration", "required": true}, {"type": "double", "name":
+    "exploration milestone", "required": true}, {"type": "double", "name": "factor",
+    "required": true}, {"type": "double", "name": "factor previously", "required":
+    true}, {"type": "double", "name": "failure", "required": true}, {"type": "double",
+    "name": "failure recommendation", "required": true}, {"type": "double", "name":
+    "farreaching", "required": true}, {"type": "double", "name": "farreaching though",
+    "required": true}, {"type": "double", "name": "fascinating", "required": true},
+    {"type": "double", "name": "fascinating see", "required": true}, {"type": "double",
+    "name": "feel", "required": true}, {"type": "double", "name": "feel like", "required":
+    true}, {"type": "double", "name": "field", "required": true}, {"type": "double",
+    "name": "field competing", "required": true}, {"type": "double", "name": "field
+    study", "required": true}, {"type": "double", "name": "finding", "required": true},
+    {"type": "double", "name": "finding contribute", "required": true}, {"type": "double",
+    "name": "finding met", "required": true}, {"type": "double", "name": "finding
+    peerreviewed", "required": true}, {"type": "double", "name": "finding suggest",
+    "required": true}, {"type": "double", "name": "finding underscoring", "required":
+    true}, {"type": "double", "name": "fine", "required": true}, {"type": "double",
+    "name": "fine im", "required": true}, {"type": "double", "name": "five", "required":
+    true}, {"type": "double", "name": "five geographic", "required": true}, {"type":
+    "double", "name": "focus", "required": true}, {"type": "double", "name": "focus
+    solution", "required": true}, {"type": "double", "name": "focused", "required":
+    true}, {"type": "double", "name": "focused surfacelevel", "required": true}, {"type":
+    "double", "name": "following", "required": true}, {"type": "double", "name": "following
+    conversation", "required": true}, {"type": "double", "name": "following release",
+    "required": true}, {"type": "double", "name": "food", "required": true}, {"type":
+    "double", "name": "food security", "required": true}, {"type": "double", "name":
+    "formal", "required": true}, {"type": "double", "name": "formal response", "required":
+    true}, {"type": "double", "name": "fr", "required": true}, {"type": "double",
+    "name": "framework", "required": true}, {"type": "double", "name": "framework
+    illequipped", "required": true}, {"type": "double", "name": "framework insufficient",
+    "required": true}, {"type": "double", "name": "framework produced", "required":
+    true}, {"type": "double", "name": "framework reconcile", "required": true}, {"type":
+    "double", "name": "framework sociology", "required": true}, {"type": "double",
+    "name": "freedom", "required": true}, {"type": "double", "name": "freedom information",
+    "required": true}, {"type": "double", "name": "friday", "required": true}, {"type":
+    "double", "name": "friday climate", "required": true}, {"type": "double", "name":
+    "friday cryptocurrency", "required": true}, {"type": "double", "name": "friday
+    digital", "required": true}, {"type": "double", "name": "friday gene", "required":
+    true}, {"type": "double", "name": "friday remote", "required": true}, {"type":
+    "double", "name": "friday renewable", "required": true}, {"type": "double", "name":
+    "friday space", "required": true}, {"type": "double", "name": "friday supply",
+    "required": true}, {"type": "double", "name": "full", "required": true}, {"type":
+    "double", "name": "full impact", "required": true}, {"type": "double", "name":
+    "gap", "required": true}, {"type": "double", "name": "gap prospective", "required":
+    true}, {"type": "double", "name": "gap require", "required": true}, {"type": "double",
+    "name": "gap warrant", "required": true}, {"type": "double", "name": "gathered",
+    "required": true}, {"type": "double", "name": "gathered twoyear", "required":
+    true}, {"type": "double", "name": "gene", "required": true}, {"type": "double",
+    "name": "gene editing", "required": true}, {"type": "double", "name": "genomic",
+    "required": true}, {"type": "double", "name": "genomic research", "required":
+    true}, {"type": "double", "name": "genuinely", "required": true}, {"type": "double",
+    "name": "genuinely baffled", "required": true}, {"type": "double", "name": "genuinely
+    hopeful", "required": true}, {"type": "double", "name": "geographic", "required":
+    true}, {"type": "double", "name": "geographic region", "required": true}, {"type":
+    "double", "name": "get", "required": true}, {"type": "double", "name": "get worse",
+    "required": true}, {"type": "double", "name": "getting", "required": true}, {"type":
+    "double", "name": "getting attention", "required": true}, {"type": "double", "name":
+    "gig", "required": true}, {"type": "double", "name": "gig economy", "required":
+    true}, {"type": "double", "name": "giving", "required": true}, {"type": "double",
+    "name": "giving read", "required": true}, {"type": "double", "name": "go", "required":
+    true}, {"type": "double", "name": "go progress", "required": true}, {"type": "double",
+    "name": "governance", "required": true}, {"type": "double", "name": "governance
+    aging", "required": true}, {"type": "double", "name": "governance algorithmic",
+    "required": true}, {"type": "double", "name": "governance antibiotic", "required":
+    true}, {"type": "double", "name": "governance artificial", "required": true},
+    {"type": "double", "name": "governance cryptocurrency", "required": true}, {"type":
+    "double", "name": "governance data", "required": true}, {"type": "double", "name":
+    "governance digital", "required": true}, {"type": "double", "name": "governance
+    economic", "required": true}, {"type": "double", "name": "governance education",
+    "required": true}, {"type": "double", "name": "governance gene", "required": true},
+    {"type": "double", "name": "governance genomic", "required": true}, {"type": "double",
+    "name": "governance gig", "required": true}, {"type": "double", "name": "governance
+    nuclear", "required": true}, {"type": "double", "name": "governance renewable",
+    "required": true}, {"type": "double", "name": "governance social", "required":
+    true}, {"type": "double", "name": "grounded", "required": true}, {"type": "double",
+    "name": "grounded empirical", "required": true}, {"type": "double", "name": "growing",
+    "required": true}, {"type": "double", "name": "growing body", "required": true},
+    {"type": "double", "name": "growing interest", "required": true}, {"type": "double",
+    "name": "grown", "required": true}, {"type": "double", "name": "grown robust",
+    "required": true}, {"type": "double", "name": "happened", "required": true}, {"type":
+    "double", "name": "happened timeline", "required": true}, {"type": "double", "name":
+    "happening", "required": true}, {"type": "double", "name": "happy", "required":
+    true}, {"type": "double", "name": "happy discus", "required": true}, {"type":
+    "double", "name": "havent", "required": true}, {"type": "double", "name": "havent
+    already", "required": true}, {"type": "double", "name": "health", "required":
+    true}, {"type": "double", "name": "health awareness", "required": true}, {"type":
+    "double", "name": "helping", "required": true}, {"type": "double", "name": "helping
+    anyone", "required": true}, {"type": "double", "name": "highlight", "required":
+    true}, {"type": "double", "name": "highlight progress", "required": true}, {"type":
+    "double", "name": "highly", "required": true}, {"type": "double", "name": "highly
+    recommend", "required": true}, {"type": "double", "name": "hiring", "required":
+    true}, {"type": "double", "name": "hiring actually", "required": true}, {"type":
+    "double", "name": "hiring announcement", "required": true}, {"type": "double",
+    "name": "hiring broader", "required": true}, {"type": "double", "name": "hiring
+    complicated", "required": true}, {"type": "double", "name": "hiring critical",
+    "required": true}, {"type": "double", "name": "hiring drawn", "required": true},
+    {"type": "double", "name": "hiring emergency", "required": true}, {"type": "double",
+    "name": "hiring emerging", "required": true}, {"type": "double", "name": "hiring
+    evolved", "required": true}, {"type": "double", "name": "hiring fine", "required":
+    true}, {"type": "double", "name": "hiring honestly", "required": true}, {"type":
+    "double", "name": "hiring intensified", "required": true}, {"type": "double",
+    "name": "hiring keep", "required": true}, {"type": "double", "name": "hiring largely",
+    "required": true}, {"type": "double", "name": "hiring lately", "required": true},
+    {"type": "double", "name": "hiring occupies", "required": true}, {"type": "double",
+    "name": "hiring present", "required": true}, {"type": "double", "name": "hiring
+    really", "required": true}, {"type": "double", "name": "hiring researcher", "required":
+    true}, {"type": "double", "name": "hiring sec", "required": true}, {"type": "double",
+    "name": "hiring source", "required": true}, {"type": "double", "name": "hiring
+    there", "required": true}, {"type": "double", "name": "hiring uncovered", "required":
+    true}, {"type": "double", "name": "honestly", "required": true}, {"type": "double",
+    "name": "honestly many", "required": true}, {"type": "double", "name": "hopeful",
+    "required": true}, {"type": "double", "name": "hopeful yes", "required": true},
+    {"type": "double", "name": "hot", "required": true}, {"type": "double", "name":
+    "hot take", "required": true}, {"type": "double", "name": "hour", "required":
+    true}, {"type": "double", "name": "hour official", "required": true}, {"type":
+    "double", "name": "housing", "required": true}, {"type": "double", "name": "housing
+    shortage", "required": true}, {"type": "double", "name": "identifies", "required":
+    true}, {"type": "double", "name": "identifies best", "required": true}, {"type":
+    "double", "name": "identifies gap", "required": true}, {"type": "double", "name":
+    "identifying", "required": true}, {"type": "double", "name": "identifying converging",
+    "required": true}, {"type": "double", "name": "idk", "required": true}, {"type":
+    "double", "name": "idk aging", "required": true}, {"type": "double", "name": "idk
+    algorithmic", "required": true}, {"type": "double", "name": "idk antibiotic",
+    "required": true}, {"type": "double", "name": "idk artificial", "required": true},
+    {"type": "double", "name": "idk biodiversity", "required": true}, {"type": "double",
+    "name": "idk climate", "required": true}, {"type": "double", "name": "idk cryptocurrency",
+    "required": true}, {"type": "double", "name": "idk cybersecurity", "required":
+    true}, {"type": "double", "name": "idk data", "required": true}, {"type": "double",
+    "name": "idk digital", "required": true}, {"type": "double", "name": "idk education",
+    "required": true}, {"type": "double", "name": "idk election", "required": true},
+    {"type": "double", "name": "idk food", "required": true}, {"type": "double", "name":
+    "idk gene", "required": true}, {"type": "double", "name": "idk genomic", "required":
+    true}, {"type": "double", "name": "idk gig", "required": true}, {"type": "double",
+    "name": "idk mental", "required": true}, {"type": "double", "name": "idk nuclear",
+    "required": true}, {"type": "double", "name": "idk public", "required": true},
+    {"type": "double", "name": "idk remote", "required": true}, {"type": "double",
+    "name": "idk renewable", "required": true}, {"type": "double", "name": "idk social",
+    "required": true}, {"type": "double", "name": "idk space", "required": true},
+    {"type": "double", "name": "idk student", "required": true}, {"type": "double",
+    "name": "idk supply", "required": true}, {"type": "double", "name": "idk urban",
+    "required": true}, {"type": "double", "name": "idk vaccine", "required": true},
+    {"type": "double", "name": "illequipped", "required": true}, {"type": "double",
+    "name": "illequipped address", "required": true}, {"type": "double", "name": "im",
+    "required": true}, {"type": "double", "name": "im genuinely", "required": true},
+    {"type": "double", "name": "immediate", "required": true}, {"type": "double",
+    "name": "immediate action", "required": true}, {"type": "double", "name": "impact",
+    "required": true}, {"type": "double", "name": "impact remains", "required": true},
+    {"type": "double", "name": "implication", "required": true}, {"type": "double",
+    "name": "implication could", "required": true}, {"type": "double", "name": "implication
+    policy", "required": true}, {"type": "double", "name": "implication theory", "required":
+    true}, {"type": "double", "name": "incident", "required": true}, {"type": "double",
+    "name": "incident investigation", "required": true}, {"type": "double", "name":
+    "inconsistent", "required": true}, {"type": "double", "name": "inconsistent empirical",
+    "required": true}, {"type": "double", "name": "independent", "required": true},
+    {"type": "double", "name": "independent expert", "required": true}, {"type": "double",
+    "name": "indicate", "required": true}, {"type": "double", "name": "indicate statistically",
+    "required": true}, {"type": "double", "name": "indoors", "required": true}, {"type":
+    "double", "name": "indoors precaution", "required": true}, {"type": "double",
+    "name": "inequality", "required": true}, {"type": "double", "name": "inequality
+    trend", "required": true}, {"type": "double", "name": "inference", "required":
+    true}, {"type": "double", "name": "inference present", "required": true}, {"type":
+    "double", "name": "information", "required": true}, {"type": "double", "name":
+    "information request", "required": true}, {"type": "double", "name": "infrastructure",
+    "required": true}, {"type": "double", "name": "infrastructure academic", "required":
+    true}, {"type": "double", "name": "infrastructure actually", "required": true},
+    {"type": "double", "name": "infrastructure announcement", "required": true}, {"type":
+    "double", "name": "infrastructure become", "required": true}, {"type": "double",
+    "name": "infrastructure broader", "required": true}, {"type": "double", "name":
+    "infrastructure complicated", "required": true}, {"type": "double", "name": "infrastructure
+    emergency", "required": true}, {"type": "double", "name": "infrastructure emerging",
+    "required": true}, {"type": "double", "name": "infrastructure employing", "required":
+    true}, {"type": "double", "name": "infrastructure evolved", "required": true},
+    {"type": "double", "name": "infrastructure fine", "required": true}, {"type":
+    "double", "name": "infrastructure happened", "required": true}, {"type": "double",
+    "name": "infrastructure honestly", "required": true}, {"type": "double", "name":
+    "infrastructure intensified", "required": true}, {"type": "double", "name": "infrastructure
+    keep", "required": true}, {"type": "double", "name": "infrastructure largely",
+    "required": true}, {"type": "double", "name": "infrastructure lately", "required":
+    true}, {"type": "double", "name": "infrastructure occupies", "required": true},
+    {"type": "double", "name": "infrastructure predominantly", "required": true},
+    {"type": "double", "name": "infrastructure researcher", "required": true}, {"type":
+    "double", "name": "infrastructure sec", "required": true}, {"type": "double",
+    "name": "infrastructure source", "required": true}, {"type": "double", "name":
+    "infrastructure there", "required": true}, {"type": "double", "name": "infrastructure
+    uncovered", "required": true}, {"type": "double", "name": "infrastructure within",
+    "required": true}, {"type": "double", "name": "initially", "required": true},
+    {"type": "double", "name": "initially reported", "required": true}, {"type": "double",
+    "name": "inquiry", "required": true}, {"type": "double", "name": "inquiry grown",
+    "required": true}, {"type": "double", "name": "instead", "required": true}, {"type":
+    "double", "name": "instead reducing", "required": true}, {"type": "double", "name":
+    "institution", "required": true}, {"type": "double", "name": "institution outlined",
+    "required": true}, {"type": "double", "name": "insufficient", "required": true},
+    {"type": "double", "name": "insufficient explain", "required": true}, {"type":
+    "double", "name": "integrates", "required": true}, {"type": "double", "name":
+    "integrates interdisciplinary", "required": true}, {"type": "double", "name":
+    "integrative", "required": true}, {"type": "double", "name": "integrative framework",
+    "required": true}, {"type": "double", "name": "integrity", "required": true},
+    {"type": "double", "name": "integrity concern", "required": true}, {"type": "double",
+    "name": "intelligence", "required": true}, {"type": "double", "name": "intelligence
+    regulation", "required": true}, {"type": "double", "name": "intensified", "required":
+    true}, {"type": "double", "name": "intensified following", "required": true},
+    {"type": "double", "name": "interdisciplinary", "required": true}, {"type": "double",
+    "name": "interdisciplinary framework", "required": true}, {"type": "double", "name":
+    "interdisciplinary perspective", "required": true}, {"type": "double", "name":
+    "interest", "required": true}, {"type": "double", "name": "interest field", "required":
+    true}, {"type": "double", "name": "international", "required": true}, {"type":
+    "double", "name": "international cooperation", "required": true}, {"type": "double",
+    "name": "interpretation", "required": true}, {"type": "double", "name": "intervention",
+    "required": true}, {"type": "double", "name": "intervention multiple", "required":
+    true}, {"type": "double", "name": "investigates", "required": true}, {"type":
+    "double", "name": "investigates multifaceted", "required": true}, {"type": "double",
+    "name": "investigation", "required": true}, {"type": "double", "name": "investigation
+    aging", "required": true}, {"type": "double", "name": "investigation algorithmic",
+    "required": true}, {"type": "double", "name": "investigation antibiotic", "required":
+    true}, {"type": "double", "name": "investigation artificial", "required": true},
+    {"type": "double", "name": "investigation autonomous", "required": true}, {"type":
+    "double", "name": "investigation biodiversity", "required": true}, {"type": "double",
+    "name": "investigation climate", "required": true}, {"type": "double", "name":
+    "investigation cryptocurrency", "required": true}, {"type": "double", "name":
+    "investigation cybersecurity", "required": true}, {"type": "double", "name": "investigation
+    data", "required": true}, {"type": "double", "name": "investigation digital",
+    "required": true}, {"type": "double", "name": "investigation economic", "required":
+    true}, {"type": "double", "name": "investigation education", "required": true},
+    {"type": "double", "name": "investigation food", "required": true}, {"type": "double",
+    "name": "investigation gene", "required": true}, {"type": "double", "name": "investigation
+    genomic", "required": true}, {"type": "double", "name": "investigation gig", "required":
+    true}, {"type": "double", "name": "investigation mental", "required": true}, {"type":
+    "double", "name": "investigation nuclear", "required": true}, {"type": "double",
+    "name": "investigation public", "required": true}, {"type": "double", "name":
+    "investigation remote", "required": true}, {"type": "double", "name": "investigation
+    renewable", "required": true}, {"type": "double", "name": "investigation resident",
+    "required": true}, {"type": "double", "name": "investigation social", "required":
+    true}, {"type": "double", "name": "investigation space", "required": true}, {"type":
+    "double", "name": "investigation student", "required": true}, {"type": "double",
+    "name": "investigation supply", "required": true}, {"type": "double", "name":
+    "investigation urban", "required": true}, {"type": "double", "name": "investigation
+    vaccine", "required": true}, {"type": "double", "name": "investigation water",
+    "required": true}, {"type": "double", "name": "investment", "required": true},
+    {"type": "double", "name": "investment academic", "required": true}, {"type":
+    "double", "name": "investment actually", "required": true}, {"type": "double",
+    "name": "investment announcement", "required": true}, {"type": "double", "name":
+    "investment become", "required": true}, {"type": "double", "name": "investment
+    broader", "required": true}, {"type": "double", "name": "investment complicated",
+    "required": true}, {"type": "double", "name": "investment continue", "required":
+    true}, {"type": "double", "name": "investment critical", "required": true}, {"type":
+    "double", "name": "investment drawn", "required": true}, {"type": "double", "name":
+    "investment emergency", "required": true}, {"type": "double", "name": "investment
+    employing", "required": true}, {"type": "double", "name": "investment encouraging",
+    "required": true}, {"type": "double", "name": "investment evolved", "required":
+    true}, {"type": "double", "name": "investment happened", "required": true}, {"type":
+    "double", "name": "investment intensified", "required": true}, {"type": "double",
+    "name": "investment keep", "required": true}, {"type": "double", "name": "investment
+    lately", "required": true}, {"type": "double", "name": "investment noting", "required":
+    true}, {"type": "double", "name": "investment occupies", "required": true}, {"type":
+    "double", "name": "investment predominantly", "required": true}, {"type": "double",
+    "name": "investment researcher", "required": true}, {"type": "double", "name":
+    "investment sec", "required": true}, {"type": "double", "name": "investment source",
+    "required": true}, {"type": "double", "name": "investment there", "required":
+    true}, {"type": "double", "name": "investment uncovered", "required": true}, {"type":
+    "double", "name": "isnt", "required": true}, {"type": "double", "name": "isnt
+    helping", "required": true}, {"type": "double", "name": "issue", "required": true},
+    {"type": "double", "name": "issue complex", "required": true}, {"type": "double",
+    "name": "issue resisted", "required": true}, {"type": "double", "name": "issued",
+    "required": true}, {"type": "double", "name": "issued open", "required": true},
+    {"type": "double", "name": "ive", "required": true}, {"type": "double", "name":
+    "ive thinking", "required": true}, {"type": "double", "name": "jurisdiction",
+    "required": true}, {"type": "double", "name": "jurisdiction study", "required":
+    true}, {"type": "double", "name": "keep", "required": true}, {"type": "double",
+    "name": "keep coming", "required": true}, {"type": "double", "name": "key", "required":
+    true}, {"type": "double", "name": "key debate", "required": true}, {"type": "double",
+    "name": "key variable", "required": true}, {"type": "double", "name": "key witness",
+    "required": true}, {"type": "double", "name": "labor", "required": true}, {"type":
+    "double", "name": "labor right", "required": true}, {"type": "double", "name":
+    "largely", "required": true}, {"type": "double", "name": "largely focused", "required":
+    true}, {"type": "double", "name": "lately", "required": true}, {"type": "double",
+    "name": "lately think", "required": true}, {"type": "double", "name": "later",
+    "required": true}, {"type": "double", "name": "later today", "required": true},
+    {"type": "double", "name": "latest", "required": true}, {"type": "double", "name":
+    "latest data", "required": true}, {"type": "double", "name": "lead", "required":
+    true}, {"type": "double", "name": "lead researcher", "required": true}, {"type":
+    "double", "name": "leading", "required": true}, {"type": "double", "name": "leading
+    institution", "required": true}, {"type": "double", "name": "legislation", "required":
+    true}, {"type": "double", "name": "legislation academic", "required": true}, {"type":
+    "double", "name": "legislation actually", "required": true}, {"type": "double",
+    "name": "legislation announcement", "required": true}, {"type": "double", "name":
+    "legislation become", "required": true}, {"type": "double", "name": "legislation
+    broader", "required": true}, {"type": "double", "name": "legislation came", "required":
+    true}, {"type": "double", "name": "legislation complicated", "required": true},
+    {"type": "double", "name": "legislation critical", "required": true}, {"type":
+    "double", "name": "legislation emergency", "required": true}, {"type": "double",
+    "name": "legislation employing", "required": true}, {"type": "double", "name":
+    "legislation encouraging", "required": true}, {"type": "double", "name": "legislation
+    evolved", "required": true}, {"type": "double", "name": "legislation fine", "required":
+    true}, {"type": "double", "name": "legislation happened", "required": true}, {"type":
+    "double", "name": "legislation honestly", "required": true}, {"type": "double",
+    "name": "legislation intensified", "required": true}, {"type": "double", "name":
+    "legislation keep", "required": true}, {"type": "double", "name": "legislation
+    largely", "required": true}, {"type": "double", "name": "legislation lately",
+    "required": true}, {"type": "double", "name": "legislation noting", "required":
+    true}, {"type": "double", "name": "legislation predominantly", "required": true},
+    {"type": "double", "name": "legislation present", "required": true}, {"type":
+    "double", "name": "legislation really", "required": true}, {"type": "double",
+    "name": "legislation reported", "required": true}, {"type": "double", "name":
+    "legislation researcher", "required": true}, {"type": "double", "name": "legislation
+    sec", "required": true}, {"type": "double", "name": "legislation source", "required":
+    true}, {"type": "double", "name": "legislation there", "required": true}, {"type":
+    "double", "name": "legislation uncovered", "required": true}, {"type": "double",
+    "name": "legislation within", "required": true}, {"type": "double", "name": "lens",
+    "required": true}, {"type": "double", "name": "lens drawing", "required": true},
+    {"type": "double", "name": "let", "required": true}, {"type": "double", "name":
+    "let focus", "required": true}, {"type": "double", "name": "letter", "required":
+    true}, {"type": "double", "name": "letter urging", "required": true}, {"type":
+    "double", "name": "level", "required": true}, {"type": "double", "name": "level
+    necessary", "required": true}, {"type": "double", "name": "like", "required":
+    true}, {"type": "double", "name": "like getting", "required": true}, {"type":
+    "double", "name": "like people", "required": true}, {"type": "double", "name":
+    "limitation", "required": true}, {"type": "double", "name": "limitation result",
+    "required": true}, {"type": "double", "name": "limiting", "required": true}, {"type":
+    "double", "name": "limiting causal", "required": true}, {"type": "double", "name":
+    "line", "required": true}, {"type": "double", "name": "listened", "required":
+    true}, {"type": "double", "name": "listened lol", "required": true}, {"type":
+    "double", "name": "literature", "required": true}, {"type": "double", "name":
+    "literature aging", "required": true}, {"type": "double", "name": "literature
+    analyzing", "required": true}, {"type": "double", "name": "literature antibiotic",
+    "required": true}, {"type": "double", "name": "literature artificial", "required":
+    true}, {"type": "double", "name": "literature autonomous", "required": true},
+    {"type": "double", "name": "literature biodiversity", "required": true}, {"type":
+    "double", "name": "literature challenge", "required": true}, {"type": "double",
+    "name": "literature cybersecurity", "required": true}, {"type": "double", "name":
+    "literature data", "required": true}, {"type": "double", "name": "literature digital",
+    "required": true}, {"type": "double", "name": "literature economic", "required":
+    true}, {"type": "double", "name": "literature education", "required": true}, {"type":
+    "double", "name": "literature election", "required": true}, {"type": "double",
+    "name": "literature gene", "required": true}, {"type": "double", "name": "literature
+    mental", "required": true}, {"type": "double", "name": "literature public", "required":
+    true}, {"type": "double", "name": "literature social", "required": true}, {"type":
+    "double", "name": "literature supply", "required": true}, {"type": "double", "name":
+    "literature vaccine", "required": true}, {"type": "double", "name": "local", "required":
+    true}, {"type": "double", "name": "local authority", "required": true}, {"type":
+    "double", "name": "lol", "required": true}, {"type": "double", "name": "long",
+    "required": true}, {"type": "double", "name": "long overdue", "required": true},
+    {"type": "double", "name": "long way", "required": true}, {"type": "double", "name":
+    "longitudinal", "required": true}, {"type": "double", "name": "longitudinal research",
+    "required": true}, {"type": "double", "name": "longstanding", "required": true},
+    {"type": "double", "name": "longstanding structural", "required": true}, {"type":
+    "double", "name": "longterm", "required": true}, {"type": "double", "name": "longterm
+    planning", "required": true}, {"type": "double", "name": "loss", "required": true},
+    {"type": "double", "name": "loss become", "required": true}, {"type": "double",
+    "name": "loss broader", "required": true}, {"type": "double", "name": "loss came",
+    "required": true}, {"type": "double", "name": "loss complicated", "required":
+    true}, {"type": "double", "name": "loss continue", "required": true}, {"type":
+    "double", "name": "loss critical", "required": true}, {"type": "double", "name":
+    "loss emergency", "required": true}, {"type": "double", "name": "loss emerging",
+    "required": true}, {"type": "double", "name": "loss employing", "required": true},
+    {"type": "double", "name": "loss evolved", "required": true}, {"type": "double",
+    "name": "loss fine", "required": true}, {"type": "double", "name": "loss happened",
+    "required": true}, {"type": "double", "name": "loss honestly", "required": true},
+    {"type": "double", "name": "loss intensified", "required": true}, {"type": "double",
+    "name": "loss keep", "required": true}, {"type": "double", "name": "loss largely",
+    "required": true}, {"type": "double", "name": "loss lately", "required": true},
+    {"type": "double", "name": "loss occupies", "required": true}, {"type": "double",
+    "name": "loss predominantly", "required": true}, {"type": "double", "name": "loss
+    really", "required": true}, {"type": "double", "name": "loss reported", "required":
+    true}, {"type": "double", "name": "loss researcher", "required": true}, {"type":
+    "double", "name": "loss sec", "required": true}, {"type": "double", "name": "loss
+    source", "required": true}, {"type": "double", "name": "loss there", "required":
+    true}, {"type": "double", "name": "loss uncovered", "required": true}, {"type":
+    "double", "name": "loss within", "required": true}, {"type": "double", "name":
+    "lot", "required": true}, {"type": "double", "name": "lot algorithmic", "required":
+    true}, {"type": "double", "name": "lot antibiotic", "required": true}, {"type":
+    "double", "name": "lot artificial", "required": true}, {"type": "double", "name":
+    "lot biodiversity", "required": true}, {"type": "double", "name": "lot climate",
+    "required": true}, {"type": "double", "name": "lot cryptocurrency", "required":
+    true}, {"type": "double", "name": "lot cybersecurity", "required": true}, {"type":
+    "double", "name": "lot data", "required": true}, {"type": "double", "name": "lot
+    digital", "required": true}, {"type": "double", "name": "lot economic", "required":
+    true}, {"type": "double", "name": "lot education", "required": true}, {"type":
+    "double", "name": "lot gene", "required": true}, {"type": "double", "name": "lot
+    genomic", "required": true}, {"type": "double", "name": "lot gig", "required":
+    true}, {"type": "double", "name": "lot mental", "required": true}, {"type": "double",
+    "name": "lot nuclear", "required": true}, {"type": "double", "name": "lot public",
+    "required": true}, {"type": "double", "name": "lot remote", "required": true},
+    {"type": "double", "name": "lot renewable", "required": true}, {"type": "double",
+    "name": "lot space", "required": true}, {"type": "double", "name": "lot student",
+    "required": true}, {"type": "double", "name": "lot supply", "required": true},
+    {"type": "double", "name": "lot vaccine", "required": true}, {"type": "double",
+    "name": "lot water", "required": true}, {"type": "double", "name": "made", "required":
+    true}, {"type": "double", "name": "made persistent", "required": true}, {"type":
+    "double", "name": "making", "required": true}, {"type": "double", "name": "making
+    reconsider", "required": true}, {"type": "double", "name": "manifestation", "required":
+    true}, {"type": "double", "name": "manifestation neglecting", "required": true},
+    {"type": "double", "name": "many", "required": true}, {"type": "double", "name":
+    "many thought", "required": true}, {"type": "double", "name": "mark", "required":
+    true}, {"type": "double", "name": "mark potential", "required": true}, {"type":
+    "double", "name": "market", "required": true}, {"type": "double", "name": "market
+    volatility", "required": true}, {"type": "double", "name": "matter", "required":
+    true}, {"type": "double", "name": "matter told", "required": true}, {"type": "double",
+    "name": "meaningful", "required": true}, {"type": "double", "name": "meaningful
+    solution", "required": true}, {"type": "double", "name": "mechanism", "required":
+    true}, {"type": "double", "name": "medium", "required": true}, {"type": "double",
+    "name": "medium misinformation", "required": true}, {"type": "double", "name":
+    "mental", "required": true}, {"type": "double", "name": "mental health", "required":
+    true}, {"type": "double", "name": "met", "required": true}, {"type": "double",
+    "name": "met mixed", "required": true}, {"type": "double", "name": "methodological",
+    "required": true}, {"type": "double", "name": "methodological limitation", "required":
+    true}, {"type": "double", "name": "methodological standardization", "required":
+    true}, {"type": "double", "name": "milestone", "required": true}, {"type": "double",
+    "name": "milestone academic", "required": true}, {"type": "double", "name": "milestone
+    actually", "required": true}, {"type": "double", "name": "milestone announcement",
+    "required": true}, {"type": "double", "name": "milestone become", "required":
+    true}, {"type": "double", "name": "milestone broader", "required": true}, {"type":
+    "double", "name": "milestone came", "required": true}, {"type": "double", "name":
+    "milestone complicated", "required": true}, {"type": "double", "name": "milestone
+    continue", "required": true}, {"type": "double", "name": "milestone critical",
+    "required": true}, {"type": "double", "name": "milestone drawn", "required": true},
+    {"type": "double", "name": "milestone emergency", "required": true}, {"type":
+    "double", "name": "milestone employing", "required": true}, {"type": "double",
+    "name": "milestone evolved", "required": true}, {"type": "double", "name": "milestone
+    intensified", "required": true}, {"type": "double", "name": "milestone keep",
+    "required": true}, {"type": "double", "name": "milestone largely", "required":
+    true}, {"type": "double", "name": "milestone lately", "required": true}, {"type":
+    "double", "name": "milestone noting", "required": true}, {"type": "double", "name":
+    "milestone occupies", "required": true}, {"type": "double", "name": "milestone
+    really", "required": true}, {"type": "double", "name": "milestone researcher",
+    "required": true}, {"type": "double", "name": "milestone source", "required":
+    true}, {"type": "double", "name": "milestone there", "required": true}, {"type":
+    "double", "name": "milestone uncovered", "required": true}, {"type": "double",
+    "name": "misinformation", "required": true}, {"type": "double", "name": "misinformation
+    academic", "required": true}, {"type": "double", "name": "misinformation actually",
+    "required": true}, {"type": "double", "name": "misinformation announcement", "required":
+    true}, {"type": "double", "name": "misinformation become", "required": true},
+    {"type": "double", "name": "misinformation broader", "required": true}, {"type":
+    "double", "name": "misinformation complicated", "required": true}, {"type": "double",
+    "name": "misinformation continue", "required": true}, {"type": "double", "name":
+    "misinformation critical", "required": true}, {"type": "double", "name": "misinformation
+    drawn", "required": true}, {"type": "double", "name": "misinformation emergency",
+    "required": true}, {"type": "double", "name": "misinformation emerging", "required":
+    true}, {"type": "double", "name": "misinformation employing", "required": true},
+    {"type": "double", "name": "misinformation encouraging", "required": true}, {"type":
+    "double", "name": "misinformation evolved", "required": true}, {"type": "double",
+    "name": "misinformation fine", "required": true}, {"type": "double", "name": "misinformation
+    happened", "required": true}, {"type": "double", "name": "misinformation honestly",
+    "required": true}, {"type": "double", "name": "misinformation intensified", "required":
+    true}, {"type": "double", "name": "misinformation keep", "required": true}, {"type":
+    "double", "name": "misinformation noting", "required": true}, {"type": "double",
+    "name": "misinformation predominantly", "required": true}, {"type": "double",
+    "name": "misinformation present", "required": true}, {"type": "double", "name":
+    "misinformation really", "required": true}, {"type": "double", "name": "misinformation
+    reported", "required": true}, {"type": "double", "name": "misinformation researcher",
+    "required": true}, {"type": "double", "name": "misinformation sec", "required":
+    true}, {"type": "double", "name": "misinformation source", "required": true},
+    {"type": "double", "name": "misinformation there", "required": true}, {"type":
+    "double", "name": "misinformation uncovered", "required": true}, {"type": "double",
+    "name": "misinformation within", "required": true}, {"type": "double", "name":
+    "missing", "required": true}, {"type": "double", "name": "missing point", "required":
+    true}, {"type": "double", "name": "mixed", "required": true}, {"type": "double",
+    "name": "mixed reaction", "required": true}, {"type": "double", "name": "mixedmethods",
+    "required": true}, {"type": "double", "name": "mixedmethods approach", "required":
+    true}, {"type": "double", "name": "model", "required": true}, {"type": "double",
+    "name": "model account", "required": true}, {"type": "double", "name": "model
+    longitudinal", "required": true}, {"type": "double", "name": "monday", "required":
+    true}, {"type": "double", "name": "monday antibiotic", "required": true}, {"type":
+    "double", "name": "monday cybersecurity", "required": true}, {"type": "double",
+    "name": "monday digital", "required": true}, {"type": "double", "name": "monday
+    election", "required": true}, {"type": "double", "name": "monday food", "required":
+    true}, {"type": "double", "name": "monday remote", "required": true}, {"type":
+    "double", "name": "monday supply", "required": true}, {"type": "double", "name":
+    "monday urban", "required": true}, {"type": "double", "name": "morning", "required":
+    true}, {"type": "double", "name": "morning reading", "required": true}, {"type":
+    "double", "name": "mount", "required": true}, {"type": "double", "name": "mount
+    new", "required": true}, {"type": "double", "name": "move", "required": true},
+    {"type": "double", "name": "move premature", "required": true}, {"type": "double",
+    "name": "moving", "required": true}, {"type": "double", "name": "moving aging",
+    "required": true}, {"type": "double", "name": "moving algorithmic", "required":
+    true}, {"type": "double", "name": "moving artificial", "required": true}, {"type":
+    "double", "name": "moving autonomous", "required": true}, {"type": "double", "name":
+    "moving biodiversity", "required": true}, {"type": "double", "name": "moving cybersecurity",
+    "required": true}, {"type": "double", "name": "moving data", "required": true},
+    {"type": "double", "name": "moving economic", "required": true}, {"type": "double",
+    "name": "moving education", "required": true}, {"type": "double", "name": "moving
+    election", "required": true}, {"type": "double", "name": "moving food", "required":
+    true}, {"type": "double", "name": "moving gene", "required": true}, {"type": "double",
+    "name": "moving genomic", "required": true}, {"type": "double", "name": "moving
+    gig", "required": true}, {"type": "double", "name": "moving nuclear", "required":
+    true}, {"type": "double", "name": "moving public", "required": true}, {"type":
+    "double", "name": "moving remote", "required": true}, {"type": "double", "name":
+    "moving social", "required": true}, {"type": "double", "name": "moving space",
+    "required": true}, {"type": "double", "name": "moving student", "required": true},
+    {"type": "double", "name": "moving supply", "required": true}, {"type": "double",
+    "name": "moving vaccine", "required": true}, {"type": "double", "name": "much",
+    "required": true}, {"type": "double", "name": "much potential", "required": true},
+    {"type": "double", "name": "multifaceted", "required": true}, {"type": "double",
+    "name": "multifaceted dimension", "required": true}, {"type": "double", "name":
+    "multiple", "required": true}, {"type": "double", "name": "multiple level", "required":
+    true}, {"type": "double", "name": "multiple stakeholder", "required": true}, {"type":
+    "double", "name": "narrative", "required": true}, {"type": "double", "name": "narrative
+    document", "required": true}, {"type": "double", "name": "nation", "required":
+    true}, {"type": "double", "name": "nation announcement", "required": true}, {"type":
+    "double", "name": "nation broader", "required": true}, {"type": "double", "name":
+    "nation came", "required": true}, {"type": "double", "name": "nation complicated",
+    "required": true}, {"type": "double", "name": "nation continue", "required": true},
+    {"type": "double", "name": "nation critical", "required": true}, {"type": "double",
+    "name": "nation drawn", "required": true}, {"type": "double", "name": "nation
+    emergency", "required": true}, {"type": "double", "name": "nation emerging", "required":
+    true}, {"type": "double", "name": "nation employing", "required": true}, {"type":
+    "double", "name": "nation encouraging", "required": true}, {"type": "double",
+    "name": "nation evolved", "required": true}, {"type": "double", "name": "nation
+    fine", "required": true}, {"type": "double", "name": "nation honestly", "required":
+    true}, {"type": "double", "name": "nation intensified", "required": true}, {"type":
+    "double", "name": "nation keep", "required": true}, {"type": "double", "name":
+    "nation largely", "required": true}, {"type": "double", "name": "nation really",
+    "required": true}, {"type": "double", "name": "nation reported", "required": true},
+    {"type": "double", "name": "nation researcher", "required": true}, {"type": "double",
+    "name": "nation source", "required": true}, {"type": "double", "name": "nation
+    there", "required": true}, {"type": "double", "name": "nation uncovered", "required":
+    true}, {"type": "double", "name": "nearby", "required": true}, {"type": "double",
+    "name": "nearby area", "required": true}, {"type": "double", "name": "necessary",
+    "required": true}, {"type": "double", "name": "necessary sustainable", "required":
+    true}, {"type": "double", "name": "need", "required": true}, {"type": "double",
+    "name": "need better", "required": true}, {"type": "double", "name": "need calm",
+    "required": true}, {"type": "double", "name": "need methodological", "required":
+    true}, {"type": "double", "name": "need nuanced", "required": true}, {"type":
+    "double", "name": "need way", "required": true}, {"type": "double", "name": "neglecting",
+    "required": true}, {"type": "double", "name": "neglecting underlying", "required":
+    true}, {"type": "double", "name": "new", "required": true}, {"type": "double",
+    "name": "new detail", "required": true}, {"type": "double", "name": "new development",
+    "required": true}, {"type": "double", "name": "new evidence", "required": true},
+    {"type": "double", "name": "new report", "required": true}, {"type": "double",
+    "name": "new study", "required": true}, {"type": "double", "name": "next", "required":
+    true}, {"type": "double", "name": "next step", "required": true}, {"type": "double",
+    "name": "niche", "required": true}, {"type": "double", "name": "niche area", "required":
+    true}, {"type": "double", "name": "nobody", "required": true}, {"type": "double",
+    "name": "nobody listened", "required": true}, {"type": "double", "name": "noting",
+    "required": true}, {"type": "double", "name": "noting recent", "required": true},
+    {"type": "double", "name": "nuance", "required": true}, {"type": "double", "name":
+    "nuance finding", "required": true}, {"type": "double", "name": "nuanced", "required":
+    true}, {"type": "double", "name": "nuanced approach", "required": true}, {"type":
+    "double", "name": "nuanced conversation", "required": true}, {"type": "double",
+    "name": "nuclear", "required": true}, {"type": "double", "name": "nuclear energy",
+    "required": true}, {"type": "double", "name": "observational", "required": true},
+    {"type": "double", "name": "observational data", "required": true}, {"type": "double",
+    "name": "observed", "required": true}, {"type": "double", "name": "observed phenomenon",
+    "required": true}, {"type": "double", "name": "observer", "required": true}, {"type":
+    "double", "name": "observer remain", "required": true}, {"type": "double", "name":
+    "obtained", "required": true}, {"type": "double", "name": "obtained freedom",
+    "required": true}, {"type": "double", "name": "occupies", "required": true}, {"type":
+    "double", "name": "occupies contested", "required": true}, {"type": "double",
+    "name": "offered", "required": true}, {"type": "double", "name": "offered alignment",
+    "required": true}, {"type": "double", "name": "official", "required": true}, {"type":
+    "double", "name": "official confirmed", "required": true}, {"type": "double",
+    "name": "official narrative", "required": true}, {"type": "double", "name": "official
+    statement", "required": true}, {"type": "double", "name": "official yet", "required":
+    true}, {"type": "double", "name": "okay", "required": true}, {"type": "double",
+    "name": "okay read", "required": true}, {"type": "double", "name": "one", "required":
+    true}, {"type": "double", "name": "one defining", "required": true}, {"type":
+    "double", "name": "open", "required": true}, {"type": "double", "name": "open
+    letter", "required": true}, {"type": "double", "name": "opportunity", "required":
+    true}, {"type": "double", "name": "opportunity let", "required": true}, {"type":
+    "double", "name": "optimistic", "required": true}, {"type": "double", "name":
+    "optimistic prospect", "required": true}, {"type": "double", "name": "otherwise",
+    "required": true}, {"type": "double", "name": "otherwise selling", "required":
+    true}, {"type": "double", "name": "outcome", "required": true}, {"type": "double",
+    "name": "outcome remains", "required": true}, {"type": "double", "name": "outlined",
+    "required": true}, {"type": "double", "name": "outlined series", "required": true},
+    {"type": "double", "name": "overdue", "required": true}, {"type": "double", "name":
+    "overdue public", "required": true}, {"type": "double", "name": "overlooked",
+    "required": true}, {"type": "double", "name": "overlooked literature", "required":
+    true}, {"type": "double", "name": "paper", "required": true}, {"type": "double",
+    "name": "paper examines", "required": true}, {"type": "double", "name": "paper
+    proposes", "required": true}, {"type": "double", "name": "paper synthesizes",
+    "required": true}, {"type": "double", "name": "past", "required": true}, {"type":
+    "double", "name": "past hour", "required": true}, {"type": "double", "name": "past
+    two", "required": true}, {"type": "double", "name": "pattern", "required": true},
+    {"type": "double", "name": "pattern qualitative", "required": true}, {"type":
+    "double", "name": "paying", "required": true}, {"type": "double", "name": "paying
+    attention", "required": true}, {"type": "double", "name": "peerreviewed", "required":
+    true}, {"type": "double", "name": "peerreviewed study", "required": true}, {"type":
+    "double", "name": "people", "required": true}, {"type": "double", "name": "people
+    completely", "required": true}, {"type": "double", "name": "people engaging",
+    "required": true}, {"type": "double", "name": "people understand", "required":
+    true}, {"type": "double", "name": "period", "required": true}, {"type": "double",
+    "name": "period finding", "required": true}, {"type": "double", "name": "persistent",
+    "required": true}, {"type": "double", "name": "persistent failure", "required":
+    true}, {"type": "double", "name": "persistent gap", "required": true}, {"type":
+    "double", "name": "perspective", "required": true}, {"type": "double", "name":
+    "perspective implication", "required": true}, {"type": "double", "name": "phenomenon",
+    "required": true}, {"type": "double", "name": "phenomenon propose", "required":
+    true}, {"type": "double", "name": "planning", "required": true}, {"type": "double",
+    "name": "please", "required": true}, {"type": "double", "name": "please acknowledge",
+    "required": true}, {"type": "double", "name": "point", "required": true}, {"type":
+    "double", "name": "point bigger", "required": true}, {"type": "double", "name":
+    "point situation", "required": true}, {"type": "double", "name": "point trend",
+    "required": true}, {"type": "double", "name": "polarization", "required": true},
+    {"type": "double", "name": "polarization isnt", "required": true}, {"type": "double",
+    "name": "policy", "required": true}, {"type": "double", "name": "policy actually",
+    "required": true}, {"type": "double", "name": "policy announcement", "required":
+    true}, {"type": "double", "name": "policy become", "required": true}, {"type":
+    "double", "name": "policy broader", "required": true}, {"type": "double", "name":
+    "policy continue", "required": true}, {"type": "double", "name": "policy emergency",
+    "required": true}, {"type": "double", "name": "policy emerging", "required": true},
+    {"type": "double", "name": "policy encouraging", "required": true}, {"type": "double",
+    "name": "policy evolved", "required": true}, {"type": "double", "name": "policy
+    fine", "required": true}, {"type": "double", "name": "policy happened", "required":
+    true}, {"type": "double", "name": "policy honestly", "required": true}, {"type":
+    "double", "name": "policy keep", "required": true}, {"type": "double", "name":
+    "policy largely", "required": true}, {"type": "double", "name": "policy lately",
+    "required": true}, {"type": "double", "name": "policy occupies", "required": true},
+    {"type": "double", "name": "policy practice", "required": true}, {"type": "double",
+    "name": "policy present", "required": true}, {"type": "double", "name": "policy
+    really", "required": true}, {"type": "double", "name": "policy recommendation",
+    "required": true}, {"type": "double", "name": "policy reported", "required": true},
+    {"type": "double", "name": "policy researcher", "required": true}, {"type": "double",
+    "name": "policy sec", "required": true}, {"type": "double", "name": "policy there",
+    "required": true}, {"type": "double", "name": "policy uncovered", "required":
+    true}, {"type": "double", "name": "policy within", "required": true}, {"type":
+    "double", "name": "policymakers", "required": true}, {"type": "double", "name":
+    "policymakers alike", "required": true}, {"type": "double", "name": "political",
+    "required": true}, {"type": "double", "name": "political science", "required":
+    true}, {"type": "double", "name": "political scientific", "required": true}, {"type":
+    "double", "name": "poorly", "required": true}, {"type": "double", "name": "poorly
+    understood", "required": true}, {"type": "double", "name": "population", "required":
+    true}, {"type": "double", "name": "population challenge", "required": true}, {"type":
+    "double", "name": "potential", "required": true}, {"type": "double", "name": "potential
+    approach", "required": true}, {"type": "double", "name": "potential turning",
+    "required": true}, {"type": "double", "name": "practical", "required": true},
+    {"type": "double", "name": "practical concern", "required": true}, {"type": "double",
+    "name": "practice", "required": true}, {"type": "double", "name": "practice area",
+    "required": true}, {"type": "double", "name": "practice discussed", "required":
+    true}, {"type": "double", "name": "precaution", "required": true}, {"type": "double",
+    "name": "predictable", "required": true}, {"type": "double", "name": "predictable
+    line", "required": true}, {"type": "double", "name": "predominantly", "required":
+    true}, {"type": "double", "name": "predominantly relied", "required": true}, {"type":
+    "double", "name": "preliminary", "required": true}, {"type": "double", "name":
+    "preliminary result", "required": true}, {"type": "double", "name": "premature",
+    "required": true}, {"type": "double", "name": "premature supporter", "required":
+    true}, {"type": "double", "name": "present", "required": true}, {"type": "double",
+    "name": "present research", "required": true}, {"type": "double", "name": "present
+    unique", "required": true}, {"type": "double", "name": "press", "required": true},
+    {"type": "double", "name": "press conference", "required": true}, {"type": "double",
+    "name": "previously", "required": true}, {"type": "double", "name": "previously
+    overlooked", "required": true}, {"type": "double", "name": "privacy", "required":
+    true}, {"type": "double", "name": "privacy legislation", "required": true}, {"type":
+    "double", "name": "produced", "required": true}, {"type": "double", "name": "produced
+    inconsistent", "required": true}, {"type": "double", "name": "productivity", "required":
+    true}, {"type": "double", "name": "productivity academic", "required": true},
+    {"type": "double", "name": "productivity announcement", "required": true}, {"type":
+    "double", "name": "productivity become", "required": true}, {"type": "double",
+    "name": "productivity broader", "required": true}, {"type": "double", "name":
+    "productivity complicated", "required": true}, {"type": "double", "name": "productivity
+    critical", "required": true}, {"type": "double", "name": "productivity drawn",
+    "required": true}, {"type": "double", "name": "productivity emergency", "required":
+    true}, {"type": "double", "name": "productivity employing", "required": true},
+    {"type": "double", "name": "productivity evolved", "required": true}, {"type":
+    "double", "name": "productivity fine", "required": true}, {"type": "double", "name":
+    "productivity happened", "required": true}, {"type": "double", "name": "productivity
+    honestly", "required": true}, {"type": "double", "name": "productivity keep",
+    "required": true}, {"type": "double", "name": "productivity largely", "required":
+    true}, {"type": "double", "name": "productivity lately", "required": true}, {"type":
+    "double", "name": "productivity noting", "required": true}, {"type": "double",
+    "name": "productivity occupies", "required": true}, {"type": "double", "name":
+    "productivity really", "required": true}, {"type": "double", "name": "productivity
+    reported", "required": true}, {"type": "double", "name": "productivity sec", "required":
+    true}, {"type": "double", "name": "productivity there", "required": true}, {"type":
+    "double", "name": "productivity uncovered", "required": true}, {"type": "double",
+    "name": "progress", "required": true}, {"type": "double", "name": "progress happening",
+    "required": true}, {"type": "double", "name": "progress made", "required": true},
+    {"type": "double", "name": "prompting", "required": true}, {"type": "double",
+    "name": "prompting reaction", "required": true}, {"type": "double", "name": "propose",
+    "required": true}, {"type": "double", "name": "propose revised", "required": true},
+    {"type": "double", "name": "proposes", "required": true}, {"type": "double", "name":
+    "proposes integrative", "required": true}, {"type": "double", "name": "prospect",
+    "required": true}, {"type": "double", "name": "prospect reform", "required": true},
+    {"type": "double", "name": "prospective", "required": true}, {"type": "double",
+    "name": "prospective cohort", "required": true}, {"type": "double", "name": "public",
+    "required": true}, {"type": "double", "name": "public response", "required": true},
+    {"type": "double", "name": "public transit", "required": true}, {"type": "double",
+    "name": "published", "required": true}, {"type": "double", "name": "published
+    identifying", "required": true}, {"type": "double", "name": "published today",
+    "required": true}, {"type": "double", "name": "qualitative", "required": true},
+    {"type": "double", "name": "qualitative nuance", "required": true}, {"type": "double",
+    "name": "quantitative", "required": true}, {"type": "double", "name": "quantitative
+    pattern", "required": true}, {"type": "double", "name": "quickly", "required":
+    true}, {"type": "double", "name": "quickly thing", "required": true}, {"type":
+    "double", "name": "rapidly", "required": true}, {"type": "double", "name": "rapidly
+    past", "required": true}, {"type": "double", "name": "reaction", "required": true},
+    {"type": "double", "name": "reaction across", "required": true}, {"type": "double",
+    "name": "reaction scientific", "required": true}, {"type": "double", "name": "read",
+    "required": true}, {"type": "double", "name": "read aging", "required": true},
+    {"type": "double", "name": "read algorithmic", "required": true}, {"type": "double",
+    "name": "read antibiotic", "required": true}, {"type": "double", "name": "read
+    artificial", "required": true}, {"type": "double", "name": "read autonomous",
+    "required": true}, {"type": "double", "name": "read biodiversity", "required":
+    true}, {"type": "double", "name": "read climate", "required": true}, {"type":
+    "double", "name": "read cryptocurrency", "required": true}, {"type": "double",
+    "name": "read cybersecurity", "required": true}, {"type": "double", "name": "read
+    data", "required": true}, {"type": "double", "name": "read digital", "required":
+    true}, {"type": "double", "name": "read economic", "required": true}, {"type":
+    "double", "name": "read education", "required": true}, {"type": "double", "name":
+    "read election", "required": true}, {"type": "double", "name": "read food", "required":
+    true}, {"type": "double", "name": "read gene", "required": true}, {"type": "double",
+    "name": "read genomic", "required": true}, {"type": "double", "name": "read havent",
+    "required": true}, {"type": "double", "name": "read mental", "required": true},
+    {"type": "double", "name": "read nuclear", "required": true}, {"type": "double",
+    "name": "read remote", "required": true}, {"type": "double", "name": "read social",
+    "required": true}, {"type": "double", "name": "read student", "required": true},
+    {"type": "double", "name": "read supply", "required": true}, {"type": "double",
+    "name": "read urban", "required": true}, {"type": "double", "name": "read vaccine",
+    "required": true}, {"type": "double", "name": "reading", "required": true}, {"type":
+    "double", "name": "reading aging", "required": true}, {"type": "double", "name":
+    "reading antibiotic", "required": true}, {"type": "double", "name": "reading biodiversity",
+    "required": true}, {"type": "double", "name": "reading climate", "required": true},
+    {"type": "double", "name": "reading data", "required": true}, {"type": "double",
+    "name": "reading digital", "required": true}, {"type": "double", "name": "reading
+    education", "required": true}, {"type": "double", "name": "reading food", "required":
+    true}, {"type": "double", "name": "reading gene", "required": true}, {"type":
+    "double", "name": "reading genomic", "required": true}, {"type": "double", "name":
+    "reading gig", "required": true}, {"type": "double", "name": "reading renewable",
+    "required": true}, {"type": "double", "name": "reading space", "required": true},
+    {"type": "double", "name": "reading vaccine", "required": true}, {"type": "double",
+    "name": "reading water", "required": true}, {"type": "double", "name": "real",
+    "required": true}, {"type": "double", "name": "real opportunity", "required":
+    true}, {"type": "double", "name": "realize", "required": true}, {"type": "double",
+    "name": "really", "required": true}, {"type": "double", "name": "really fascinating",
+    "required": true}, {"type": "double", "name": "really making", "required": true},
+    {"type": "double", "name": "recent", "required": true}, {"type": "double", "name":
+    "recent event", "required": true}, {"type": "double", "name": "recent scholarship",
+    "required": true}, {"type": "double", "name": "recently", "required": true}, {"type":
+    "double", "name": "recently released", "required": true}, {"type": "double", "name":
+    "recommend", "required": true}, {"type": "double", "name": "recommend giving",
+    "required": true}, {"type": "double", "name": "recommendation", "required": true},
+    {"type": "double", "name": "recommendation aimed", "required": true}, {"type":
+    "double", "name": "recommendation grounded", "required": true}, {"type": "double",
+    "name": "recommendation offered", "required": true}, {"type": "double", "name":
+    "recommended", "required": true}, {"type": "double", "name": "recommended assess",
+    "required": true}, {"type": "double", "name": "reconcile", "required": true},
+    {"type": "double", "name": "reconcile competing", "required": true}, {"type":
+    "double", "name": "reconsider", "required": true}, {"type": "double", "name":
+    "reconsider assumption", "required": true}, {"type": "double", "name": "reducing",
+    "required": true}, {"type": "double", "name": "reducing talking", "required":
+    true}, {"type": "double", "name": "reductive", "required": true}, {"type": "double",
+    "name": "reductive theoretical", "required": true}, {"type": "double", "name":
+    "reflects", "required": true}, {"type": "double", "name": "reflects deeper", "required":
+    true}, {"type": "double", "name": "reform", "required": true}, {"type": "double",
+    "name": "reform debate", "required": true}, {"type": "double", "name": "region",
+    "required": true}, {"type": "double", "name": "region result", "required": true},
+    {"type": "double", "name": "regulation", "required": true}, {"type": "double",
+    "name": "regulation academic", "required": true}, {"type": "double", "name": "regulation
+    actually", "required": true}, {"type": "double", "name": "regulation announcement",
+    "required": true}, {"type": "double", "name": "regulation become", "required":
+    true}, {"type": "double", "name": "regulation broader", "required": true}, {"type":
+    "double", "name": "regulation complicated", "required": true}, {"type": "double",
+    "name": "regulation continue", "required": true}, {"type": "double", "name": "regulation
+    critical", "required": true}, {"type": "double", "name": "regulation emergency",
+    "required": true}, {"type": "double", "name": "regulation emerging", "required":
+    true}, {"type": "double", "name": "regulation employing", "required": true}, {"type":
+    "double", "name": "regulation encouraging", "required": true}, {"type": "double",
+    "name": "regulation evolved", "required": true}, {"type": "double", "name": "regulation
+    happened", "required": true}, {"type": "double", "name": "regulation honestly",
+    "required": true}, {"type": "double", "name": "regulation keep", "required": true},
+    {"type": "double", "name": "regulation largely", "required": true}, {"type": "double",
+    "name": "regulation lately", "required": true}, {"type": "double", "name": "regulation
+    noting", "required": true}, {"type": "double", "name": "regulation occupies",
+    "required": true}, {"type": "double", "name": "regulation predominantly", "required":
+    true}, {"type": "double", "name": "regulation present", "required": true}, {"type":
+    "double", "name": "regulation really", "required": true}, {"type": "double", "name":
+    "regulation reported", "required": true}, {"type": "double", "name": "regulation
+    researcher", "required": true}, {"type": "double", "name": "regulation sec", "required":
+    true}, {"type": "double", "name": "regulation source", "required": true}, {"type":
+    "double", "name": "regulation there", "required": true}, {"type": "double", "name":
+    "regulation uncovered", "required": true}, {"type": "double", "name": "regulation
+    within", "required": true}, {"type": "double", "name": "regulatory", "required":
+    true}, {"type": "double", "name": "regulatory framework", "required": true}, {"type":
+    "double", "name": "related", "required": true}, {"type": "double", "name": "related
+    artificial", "required": true}, {"type": "double", "name": "related autonomous",
+    "required": true}, {"type": "double", "name": "related climate", "required": true},
+    {"type": "double", "name": "related cryptocurrency", "required": true}, {"type":
+    "double", "name": "related data", "required": true}, {"type": "double", "name":
+    "related digital", "required": true}, {"type": "double", "name": "related education",
+    "required": true}, {"type": "double", "name": "related gene", "required": true},
+    {"type": "double", "name": "related gig", "required": true}, {"type": "double",
+    "name": "related mental", "required": true}, {"type": "double", "name": "related
+    public", "required": true}, {"type": "double", "name": "related remote", "required":
+    true}, {"type": "double", "name": "related social", "required": true}, {"type":
+    "double", "name": "related space", "required": true}, {"type": "double", "name":
+    "related student", "required": true}, {"type": "double", "name": "related supply",
+    "required": true}, {"type": "double", "name": "related urban", "required": true},
+    {"type": "double", "name": "related vaccine", "required": true}, {"type": "double",
+    "name": "relationship", "required": true}, {"type": "double", "name": "relationship
+    algorithmic", "required": true}, {"type": "double", "name": "relationship antibiotic",
+    "required": true}, {"type": "double", "name": "relationship artificial", "required":
+    true}, {"type": "double", "name": "relationship autonomous", "required": true},
+    {"type": "double", "name": "relationship biodiversity", "required": true}, {"type":
+    "double", "name": "relationship climate", "required": true}, {"type": "double",
+    "name": "relationship cryptocurrency", "required": true}, {"type": "double", "name":
+    "relationship cybersecurity", "required": true}, {"type": "double", "name": "relationship
+    data", "required": true}, {"type": "double", "name": "relationship digital", "required":
+    true}, {"type": "double", "name": "relationship economic", "required": true},
+    {"type": "double", "name": "relationship education", "required": true}, {"type":
+    "double", "name": "relationship election", "required": true}, {"type": "double",
+    "name": "relationship food", "required": true}, {"type": "double", "name": "relationship
+    gene", "required": true}, {"type": "double", "name": "relationship genomic", "required":
+    true}, {"type": "double", "name": "relationship gig", "required": true}, {"type":
+    "double", "name": "relationship mental", "required": true}, {"type": "double",
+    "name": "relationship nuclear", "required": true}, {"type": "double", "name":
+    "relationship public", "required": true}, {"type": "double", "name": "relationship
+    remote", "required": true}, {"type": "double", "name": "relationship renewable",
+    "required": true}, {"type": "double", "name": "relationship social", "required":
+    true}, {"type": "double", "name": "relationship space", "required": true}, {"type":
+    "double", "name": "relationship student", "required": true}, {"type": "double",
+    "name": "relationship urban", "required": true}, {"type": "double", "name": "relationship
+    vaccine", "required": true}, {"type": "double", "name": "relationship water",
+    "required": true}, {"type": "double", "name": "release", "required": true}, {"type":
+    "double", "name": "release comprehensive", "required": true}, {"type": "double",
+    "name": "release formal", "required": true}, {"type": "double", "name": "released",
+    "required": true}, {"type": "double", "name": "released data", "required": true},
+    {"type": "double", "name": "released though", "required": true}, {"type": "double",
+    "name": "relied", "required": true}, {"type": "double", "name": "relied crosssectional",
+    "required": true}, {"type": "double", "name": "remain", "required": true}, {"type":
+    "double", "name": "remain cautiously", "required": true}, {"type": "double", "name":
+    "remain indoors", "required": true}, {"type": "double", "name": "remains", "required":
+    true}, {"type": "double", "name": "remains poorly", "required": true}, {"type":
+    "double", "name": "remains seen", "required": true}, {"type": "double", "name":
+    "remote", "required": true}, {"type": "double", "name": "remote work", "required":
+    true}, {"type": "double", "name": "renewable", "required": true}, {"type": "double",
+    "name": "renewable energy", "required": true}, {"type": "double", "name": "report",
+    "required": true}, {"type": "double", "name": "report aging", "required": true},
+    {"type": "double", "name": "report algorithmic", "required": true}, {"type": "double",
+    "name": "report antibiotic", "required": true}, {"type": "double", "name": "report
+    artificial", "required": true}, {"type": "double", "name": "report autonomous",
+    "required": true}, {"type": "double", "name": "report biodiversity", "required":
+    true}, {"type": "double", "name": "report climate", "required": true}, {"type":
+    "double", "name": "report cryptocurrency", "required": true}, {"type": "double",
+    "name": "report cybersecurity", "required": true}, {"type": "double", "name":
+    "report data", "required": true}, {"type": "double", "name": "report digital",
+    "required": true}, {"type": "double", "name": "report document", "required": true},
+    {"type": "double", "name": "report economic", "required": true}, {"type": "double",
+    "name": "report education", "required": true}, {"type": "double", "name": "report
+    election", "required": true}, {"type": "double", "name": "report food", "required":
+    true}, {"type": "double", "name": "report gene", "required": true}, {"type": "double",
+    "name": "report genomic", "required": true}, {"type": "double", "name": "report
+    mental", "required": true}, {"type": "double", "name": "report nuclear", "required":
+    true}, {"type": "double", "name": "report public", "required": true}, {"type":
+    "double", "name": "report remote", "required": true}, {"type": "double", "name":
+    "report renewable", "required": true}, {"type": "double", "name": "report social",
+    "required": true}, {"type": "double", "name": "report space", "required": true},
+    {"type": "double", "name": "report student", "required": true}, {"type": "double",
+    "name": "report supply", "required": true}, {"type": "double", "name": "report
+    urban", "required": true}, {"type": "double", "name": "report vaccine", "required":
+    true}, {"type": "double", "name": "report water", "required": true}, {"type":
+    "double", "name": "reported", "required": true}, {"type": "double", "name": "reported
+    several", "required": true}, {"type": "double", "name": "reported week", "required":
+    true}, {"type": "double", "name": "reporter", "required": true}, {"type": "double",
+    "name": "reporter situation", "required": true}, {"type": "double", "name": "request",
+    "required": true}, {"type": "double", "name": "request suggest", "required": true},
+    {"type": "double", "name": "require", "required": true}, {"type": "double", "name":
+    "require urgent", "required": true}, {"type": "double", "name": "research", "required":
+    true}, {"type": "double", "name": "research address", "required": true}, {"type":
+    "double", "name": "research breakthrough", "required": true}, {"type": "double",
+    "name": "research please", "required": true}, {"type": "double", "name": "research
+    recommended", "required": true}, {"type": "double", "name": "research underscore",
+    "required": true}, {"type": "double", "name": "researcher", "required": true},
+    {"type": "double", "name": "researcher issued", "required": true}, {"type": "double",
+    "name": "researcher said", "required": true}, {"type": "double", "name": "researcher
+    several", "required": true}, {"type": "double", "name": "resident", "required":
+    true}, {"type": "double", "name": "resident nearby", "required": true}, {"type":
+    "double", "name": "resistance", "required": true}, {"type": "double", "name":
+    "resistance academic", "required": true}, {"type": "double", "name": "resistance
+    actually", "required": true}, {"type": "double", "name": "resistance announcement",
+    "required": true}, {"type": "double", "name": "resistance become", "required":
+    true}, {"type": "double", "name": "resistance broader", "required": true}, {"type":
+    "double", "name": "resistance came", "required": true}, {"type": "double", "name":
+    "resistance continue", "required": true}, {"type": "double", "name": "resistance
+    critical", "required": true}, {"type": "double", "name": "resistance drawn", "required":
+    true}, {"type": "double", "name": "resistance emergency", "required": true}, {"type":
+    "double", "name": "resistance evolved", "required": true}, {"type": "double",
+    "name": "resistance fine", "required": true}, {"type": "double", "name": "resistance
+    happened", "required": true}, {"type": "double", "name": "resistance honestly",
+    "required": true}, {"type": "double", "name": "resistance intensified", "required":
+    true}, {"type": "double", "name": "resistance keep", "required": true}, {"type":
+    "double", "name": "resistance largely", "required": true}, {"type": "double",
+    "name": "resistance lately", "required": true}, {"type": "double", "name": "resistance
+    occupies", "required": true}, {"type": "double", "name": "resistance predominantly",
+    "required": true}, {"type": "double", "name": "resistance present", "required":
+    true}, {"type": "double", "name": "resistance reported", "required": true}, {"type":
+    "double", "name": "resistance researcher", "required": true}, {"type": "double",
+    "name": "resistance sec", "required": true}, {"type": "double", "name": "resistance
+    source", "required": true}, {"type": "double", "name": "resistance uncovered",
+    "required": true}, {"type": "double", "name": "resistance within", "required":
+    true}, {"type": "double", "name": "resisted", "required": true}, {"type": "double",
+    "name": "resisted easy", "required": true}, {"type": "double", "name": "resource",
+    "required": true}, {"type": "double", "name": "resource allocation", "required":
+    true}, {"type": "double", "name": "responding", "required": true}, {"type": "double",
+    "name": "responding report", "required": true}, {"type": "double", "name": "response",
+    "required": true}, {"type": "double", "name": "response divided", "required":
+    true}, {"type": "double", "name": "result", "required": true}, {"type": "double",
+    "name": "result implication", "required": true}, {"type": "double", "name": "result
+    indicate", "required": true}, {"type": "double", "name": "result unexpected",
+    "required": true}, {"type": "double", "name": "reveals", "required": true}, {"type":
+    "double", "name": "reveals aging", "required": true}, {"type": "double", "name":
+    "reveals algorithmic", "required": true}, {"type": "double", "name": "reveals
+    antibiotic", "required": true}, {"type": "double", "name": "reveals artificial",
+    "required": true}, {"type": "double", "name": "reveals autonomous", "required":
+    true}, {"type": "double", "name": "reveals biodiversity", "required": true}, {"type":
+    "double", "name": "reveals climate", "required": true}, {"type": "double", "name":
+    "reveals cybersecurity", "required": true}, {"type": "double", "name": "reveals
+    data", "required": true}, {"type": "double", "name": "reveals digital", "required":
+    true}, {"type": "double", "name": "reveals economic", "required": true}, {"type":
+    "double", "name": "reveals education", "required": true}, {"type": "double", "name":
+    "reveals election", "required": true}, {"type": "double", "name": "reveals food",
+    "required": true}, {"type": "double", "name": "reveals gene", "required": true},
+    {"type": "double", "name": "reveals genomic", "required": true}, {"type": "double",
+    "name": "reveals gig", "required": true}, {"type": "double", "name": "reveals
+    mental", "required": true}, {"type": "double", "name": "reveals nuclear", "required":
+    true}, {"type": "double", "name": "reveals public", "required": true}, {"type":
+    "double", "name": "reveals renewable", "required": true}, {"type": "double", "name":
+    "reveals social", "required": true}, {"type": "double", "name": "reveals space",
+    "required": true}, {"type": "double", "name": "reveals student", "required": true},
+    {"type": "double", "name": "reveals supply", "required": true}, {"type": "double",
+    "name": "reveals vaccine", "required": true}, {"type": "double", "name": "reveals
+    water", "required": true}, {"type": "double", "name": "review", "required": true},
+    {"type": "double", "name": "review synthesizes", "required": true}, {"type": "double",
+    "name": "reviewed", "required": true}, {"type": "double", "name": "reviewed independent",
+    "required": true}, {"type": "double", "name": "revised", "required": true}, {"type":
+    "double", "name": "revised model", "required": true}, {"type": "double", "name":
+    "right", "required": true}, {"type": "double", "name": "right actually", "required":
+    true}, {"type": "double", "name": "right announcement", "required": true}, {"type":
+    "double", "name": "right become", "required": true}, {"type": "double", "name":
+    "right broader", "required": true}, {"type": "double", "name": "right came", "required":
+    true}, {"type": "double", "name": "right complicated", "required": true}, {"type":
+    "double", "name": "right continue", "required": true}, {"type": "double", "name":
+    "right critical", "required": true}, {"type": "double", "name": "right employing",
+    "required": true}, {"type": "double", "name": "right encouraging", "required":
+    true}, {"type": "double", "name": "right evolved", "required": true}, {"type":
+    "double", "name": "right fine", "required": true}, {"type": "double", "name":
+    "right happened", "required": true}, {"type": "double", "name": "right intensified",
+    "required": true}, {"type": "double", "name": "right keep", "required": true},
+    {"type": "double", "name": "right largely", "required": true}, {"type": "double",
+    "name": "right lately", "required": true}, {"type": "double", "name": "right noting",
+    "required": true}, {"type": "double", "name": "right occupies", "required": true},
+    {"type": "double", "name": "right present", "required": true}, {"type": "double",
+    "name": "right really", "required": true}, {"type": "double", "name": "right reported",
+    "required": true}, {"type": "double", "name": "right researcher", "required":
+    true}, {"type": "double", "name": "right sec", "required": true}, {"type": "double",
+    "name": "right source", "required": true}, {"type": "double", "name": "right there",
+    "required": true}, {"type": "double", "name": "right uncovered", "required": true},
+    {"type": "double", "name": "right within", "required": true}, {"type": "double",
+    "name": "rn", "required": true}, {"type": "double", "name": "rn thread", "required":
+    true}, {"type": "double", "name": "robust", "required": true}, {"type": "double",
+    "name": "robust field", "required": true}, {"type": "double", "name": "root",
+    "required": true}, {"type": "double", "name": "root cause", "required": true},
+    {"type": "double", "name": "rural", "required": true}, {"type": "double", "name":
+    "rural area", "required": true}, {"type": "double", "name": "safety", "required":
+    true}, {"type": "double", "name": "safety academic", "required": true}, {"type":
+    "double", "name": "safety actually", "required": true}, {"type": "double", "name":
+    "safety announcement", "required": true}, {"type": "double", "name": "safety broader",
+    "required": true}, {"type": "double", "name": "safety continue", "required": true},
+    {"type": "double", "name": "safety critical", "required": true}, {"type": "double",
+    "name": "safety drawn", "required": true}, {"type": "double", "name": "safety
+    emergency", "required": true}, {"type": "double", "name": "safety encouraging",
+    "required": true}, {"type": "double", "name": "safety evolved", "required": true},
+    {"type": "double", "name": "safety fine", "required": true}, {"type": "double",
+    "name": "safety honestly", "required": true}, {"type": "double", "name": "safety
+    largely", "required": true}, {"type": "double", "name": "safety noting", "required":
+    true}, {"type": "double", "name": "safety occupies", "required": true}, {"type":
+    "double", "name": "safety predominantly", "required": true}, {"type": "double",
+    "name": "safety researcher", "required": true}, {"type": "double", "name": "safety
+    sec", "required": true}, {"type": "double", "name": "safety source", "required":
+    true}, {"type": "double", "name": "safety there", "required": true}, {"type":
+    "double", "name": "safety uncovered", "required": true}, {"type": "double", "name":
+    "said", "required": true}, {"type": "double", "name": "said result", "required":
+    true}, {"type": "double", "name": "salience", "required": true}, {"type": "double",
+    "name": "salience aging", "required": true}, {"type": "double", "name": "salience
+    antibiotic", "required": true}, {"type": "double", "name": "salience artificial",
+    "required": true}, {"type": "double", "name": "salience autonomous", "required":
+    true}, {"type": "double", "name": "salience cybersecurity", "required": true},
+    {"type": "double", "name": "salience data", "required": true}, {"type": "double",
+    "name": "salience economic", "required": true}, {"type": "double", "name": "salience
+    education", "required": true}, {"type": "double", "name": "salience election",
+    "required": true}, {"type": "double", "name": "salience gene", "required": true},
+    {"type": "double", "name": "salience genomic", "required": true}, {"type": "double",
+    "name": "salience public", "required": true}, {"type": "double", "name": "salience
+    remote", "required": true}, {"type": "double", "name": "salience renewable", "required":
+    true}, {"type": "double", "name": "salience social", "required": true}, {"type":
+    "double", "name": "salience space", "required": true}, {"type": "double", "name":
+    "salience supply", "required": true}, {"type": "double", "name": "salience urban",
+    "required": true}, {"type": "double", "name": "saw", "required": true}, {"type":
+    "double", "name": "saw someone", "required": true}, {"type": "double", "name":
+    "say", "required": true}, {"type": "double", "name": "say long", "required": true},
+    {"type": "double", "name": "saying", "required": true}, {"type": "double", "name":
+    "saying year", "required": true}, {"type": "double", "name": "scarcity", "required":
+    true}, {"type": "double", "name": "scarcity actually", "required": true}, {"type":
+    "double", "name": "scarcity announcement", "required": true}, {"type": "double",
+    "name": "scarcity broader", "required": true}, {"type": "double", "name": "scarcity
+    came", "required": true}, {"type": "double", "name": "scarcity continue", "required":
+    true}, {"type": "double", "name": "scarcity critical", "required": true}, {"type":
+    "double", "name": "scarcity drawn", "required": true}, {"type": "double", "name":
+    "scarcity emergency", "required": true}, {"type": "double", "name": "scarcity
+    employing", "required": true}, {"type": "double", "name": "scarcity encouraging",
+    "required": true}, {"type": "double", "name": "scarcity evolved", "required":
+    true}, {"type": "double", "name": "scarcity fine", "required": true}, {"type":
+    "double", "name": "scarcity happened", "required": true}, {"type": "double", "name":
+    "scarcity intensified", "required": true}, {"type": "double", "name": "scarcity
+    largely", "required": true}, {"type": "double", "name": "scarcity lately", "required":
+    true}, {"type": "double", "name": "scarcity really", "required": true}, {"type":
+    "double", "name": "scarcity reported", "required": true}, {"type": "double", "name":
+    "scarcity researcher", "required": true}, {"type": "double", "name": "scarcity
+    source", "required": true}, {"type": "double", "name": "scarcity uncovered", "required":
+    true}, {"type": "double", "name": "scholarly", "required": true}, {"type": "double",
+    "name": "scholarly discourse", "required": true}, {"type": "double", "name": "scholarship",
+    "required": true}, {"type": "double", "name": "scholarship aging", "required":
+    true}, {"type": "double", "name": "scholarship algorithmic", "required": true},
+    {"type": "double", "name": "scholarship antibiotic", "required": true}, {"type":
+    "double", "name": "scholarship artificial", "required": true}, {"type": "double",
+    "name": "scholarship autonomous", "required": true}, {"type": "double", "name":
+    "scholarship biodiversity", "required": true}, {"type": "double", "name": "scholarship
+    cryptocurrency", "required": true}, {"type": "double", "name": "scholarship cybersecurity",
+    "required": true}, {"type": "double", "name": "scholarship data", "required":
+    true}, {"type": "double", "name": "scholarship digital", "required": true}, {"type":
+    "double", "name": "scholarship economic", "required": true}, {"type": "double",
+    "name": "scholarship education", "required": true}, {"type": "double", "name":
+    "scholarship election", "required": true}, {"type": "double", "name": "scholarship
+    food", "required": true}, {"type": "double", "name": "scholarship gene", "required":
+    true}, {"type": "double", "name": "scholarship genomic", "required": true}, {"type":
+    "double", "name": "scholarship gig", "required": true}, {"type": "double", "name":
+    "scholarship mental", "required": true}, {"type": "double", "name": "scholarship
+    nuclear", "required": true}, {"type": "double", "name": "scholarship remote",
+    "required": true}, {"type": "double", "name": "scholarship renewable", "required":
+    true}, {"type": "double", "name": "scholarship space", "required": true}, {"type":
+    "double", "name": "scholarship student", "required": true}, {"type": "double",
+    "name": "scholarship supply", "required": true}, {"type": "double", "name": "scholarship
+    urban", "required": true}, {"type": "double", "name": "scholarship vaccine", "required":
+    true}, {"type": "double", "name": "scholarship water", "required": true}, {"type":
+    "double", "name": "school", "required": true}, {"type": "double", "name": "school
+    thought", "required": true}, {"type": "double", "name": "science", "required":
+    true}, {"type": "double", "name": "science data", "required": true}, {"type":
+    "double", "name": "scientific", "required": true}, {"type": "double", "name":
+    "scientific community", "required": true}, {"type": "double", "name": "sec", "required":
+    true}, {"type": "double", "name": "sec feel", "required": true}, {"type": "double",
+    "name": "section", "required": true}, {"type": "double", "name": "sector", "required":
+    true}, {"type": "double", "name": "sector engaged", "required": true}, {"type":
+    "double", "name": "security", "required": true}, {"type": "double", "name": "security
+    developing", "required": true}, {"type": "double", "name": "see", "required":
+    true}, {"type": "double", "name": "see people", "required": true}, {"type": "double",
+    "name": "see quickly", "required": true}, {"type": "double", "name": "seen", "required":
+    true}, {"type": "double", "name": "seen multiple", "required": true}, {"type":
+    "double", "name": "selling", "required": true}, {"type": "double", "name": "selling
+    something", "required": true}, {"type": "double", "name": "series", "required":
+    true}, {"type": "double", "name": "series recommendation", "required": true},
+    {"type": "double", "name": "seriously", "required": true}, {"type": "double",
+    "name": "seriously still", "required": true}, {"type": "double", "name": "service",
+    "required": true}, {"type": "double", "name": "service alerted", "required": true},
+    {"type": "double", "name": "several", "required": true}, {"type": "double", "name":
+    "several key", "required": true}, {"type": "double", "name": "several university",
+    "required": true}, {"type": "double", "name": "shift", "required": true}, {"type":
+    "double", "name": "shift aging", "required": true}, {"type": "double", "name":
+    "shift antibiotic", "required": true}, {"type": "double", "name": "shift artificial",
+    "required": true}, {"type": "double", "name": "shift biodiversity", "required":
+    true}, {"type": "double", "name": "shift climate", "required": true}, {"type":
+    "double", "name": "shift cryptocurrency", "required": true}, {"type": "double",
+    "name": "shift data", "required": true}, {"type": "double", "name": "shift digital",
+    "required": true}, {"type": "double", "name": "shift food", "required": true},
+    {"type": "double", "name": "shift gene", "required": true}, {"type": "double",
+    "name": "shift genomic", "required": true}, {"type": "double", "name": "shift
+    gig", "required": true}, {"type": "double", "name": "shift mental", "required":
+    true}, {"type": "double", "name": "shift nuclear", "required": true}, {"type":
+    "double", "name": "shift remote", "required": true}, {"type": "double", "name":
+    "shift renewable", "required": true}, {"type": "double", "name": "shift social",
+    "required": true}, {"type": "double", "name": "shift student", "required": true},
+    {"type": "double", "name": "shift supply", "required": true}, {"type": "double",
+    "name": "shift vaccine", "required": true}, {"type": "double", "name": "shift
+    water", "required": true}, {"type": "double", "name": "shortage", "required":
+    true}, {"type": "double", "name": "shortage academic", "required": true}, {"type":
+    "double", "name": "shortage actually", "required": true}, {"type": "double", "name":
+    "shortage announcement", "required": true}, {"type": "double", "name": "shortage
+    become", "required": true}, {"type": "double", "name": "shortage broader", "required":
+    true}, {"type": "double", "name": "shortage complicated", "required": true}, {"type":
+    "double", "name": "shortage continue", "required": true}, {"type": "double", "name":
+    "shortage critical", "required": true}, {"type": "double", "name": "shortage drawn",
+    "required": true}, {"type": "double", "name": "shortage emergency", "required":
+    true}, {"type": "double", "name": "shortage emerging", "required": true}, {"type":
+    "double", "name": "shortage employing", "required": true}, {"type": "double",
+    "name": "shortage encouraging", "required": true}, {"type": "double", "name":
+    "shortage evolved", "required": true}, {"type": "double", "name": "shortage honestly",
+    "required": true}, {"type": "double", "name": "shortage intensified", "required":
+    true}, {"type": "double", "name": "shortage keep", "required": true}, {"type":
+    "double", "name": "shortage largely", "required": true}, {"type": "double", "name":
+    "shortage noting", "required": true}, {"type": "double", "name": "shortage occupies",
+    "required": true}, {"type": "double", "name": "shortage really", "required": true},
+    {"type": "double", "name": "shortage sec", "required": true}, {"type": "double",
+    "name": "shortage source", "required": true}, {"type": "double", "name": "shortage
+    uncovered", "required": true}, {"type": "double", "name": "shortage within", "required":
+    true}, {"type": "double", "name": "significant", "required": true}, {"type": "double",
+    "name": "significant association", "required": true}, {"type": "double", "name":
+    "significant attention", "required": true}, {"type": "double", "name": "significant
+    correlation", "required": true}, {"type": "double", "name": "significant shift",
+    "required": true}, {"type": "double", "name": "situation", "required": true},
+    {"type": "double", "name": "situation developed", "required": true}, {"type":
+    "double", "name": "situation underscore", "required": true}, {"type": "double",
+    "name": "six", "required": true}, {"type": "double", "name": "six jurisdiction",
+    "required": true}, {"type": "double", "name": "social", "required": true}, {"type":
+    "double", "name": "social medium", "required": true}, {"type": "double", "name":
+    "societal", "required": true}, {"type": "double", "name": "societal outcome",
+    "required": true}, {"type": "double", "name": "sociology", "required": true},
+    {"type": "double", "name": "sociology economics", "required": true}, {"type":
+    "double", "name": "solution", "required": true}, {"type": "double", "name": "solution
+    observer", "required": true}, {"type": "double", "name": "someone", "required":
+    true}, {"type": "double", "name": "someone arguing", "required": true}, {"type":
+    "double", "name": "something", "required": true}, {"type": "double", "name": "something
+    research", "required": true}, {"type": "double", "name": "source", "required":
+    true}, {"type": "double", "name": "source close", "required": true}, {"type":
+    "double", "name": "space", "required": true}, {"type": "double", "name": "space
+    exploration", "required": true}, {"type": "double", "name": "space within", "required":
+    true}, {"type": "double", "name": "spanning", "required": true}, {"type": "double",
+    "name": "spanning three", "required": true}, {"type": "double", "name": "speculation",
+    "required": true}, {"type": "double", "name": "speculation critic", "required":
+    true}, {"type": "double", "name": "spent", "required": true}, {"type": "double",
+    "name": "spent morning", "required": true}, {"type": "double", "name": "stakeholder",
+    "required": true}, {"type": "double", "name": "stakeholder across", "required":
+    true}, {"type": "double", "name": "stakeholder calling", "required": true}, {"type":
+    "double", "name": "stakeholder consultation", "required": true}, {"type": "double",
+    "name": "standard", "required": true}, {"type": "double", "name": "standardization",
+    "required": true}, {"type": "double", "name": "standardization paper", "required":
+    true}, {"type": "double", "name": "statement", "required": true}, {"type": "double",
+    "name": "statement released", "required": true}, {"type": "double", "name": "statistically",
+    "required": true}, {"type": "double", "name": "statistically significant", "required":
+    true}, {"type": "double", "name": "step", "required": true}, {"type": "double",
+    "name": "still", "required": true}, {"type": "double", "name": "still long", "required":
+    true}, {"type": "double", "name": "strategy", "required": true}, {"type": "double",
+    "name": "strategy announcement", "required": true}, {"type": "double", "name":
+    "strategy become", "required": true}, {"type": "double", "name": "strategy broader",
+    "required": true}, {"type": "double", "name": "strategy came", "required": true},
+    {"type": "double", "name": "strategy complicated", "required": true}, {"type":
+    "double", "name": "strategy critical", "required": true}, {"type": "double", "name":
+    "strategy drawn", "required": true}, {"type": "double", "name": "strategy emergency",
+    "required": true}, {"type": "double", "name": "strategy emerging", "required":
+    true}, {"type": "double", "name": "strategy employing", "required": true}, {"type":
+    "double", "name": "strategy encouraging", "required": true}, {"type": "double",
+    "name": "strategy evolved", "required": true}, {"type": "double", "name": "strategy
+    fine", "required": true}, {"type": "double", "name": "strategy happened", "required":
+    true}, {"type": "double", "name": "strategy honestly", "required": true}, {"type":
+    "double", "name": "strategy keep", "required": true}, {"type": "double", "name":
+    "strategy lately", "required": true}, {"type": "double", "name": "strategy noting",
+    "required": true}, {"type": "double", "name": "strategy occupies", "required":
+    true}, {"type": "double", "name": "strategy really", "required": true}, {"type":
+    "double", "name": "strategy reported", "required": true}, {"type": "double", "name":
+    "strategy researcher", "required": true}, {"type": "double", "name": "strategy
+    sec", "required": true}, {"type": "double", "name": "strategy source", "required":
+    true}, {"type": "double", "name": "strategy uncovered", "required": true}, {"type":
+    "double", "name": "structural", "required": true}, {"type": "double", "name":
+    "structural determinant", "required": true}, {"type": "double", "name": "structural
+    issue", "required": true}, {"type": "double", "name": "student", "required": true},
+    {"type": "double", "name": "student debt", "required": true}, {"type": "double",
+    "name": "study", "required": true}, {"type": "double", "name": "study contributes",
+    "required": true}, {"type": "double", "name": "study identifies", "required":
+    true}, {"type": "double", "name": "study investigates", "required": true}, {"type":
+    "double", "name": "study published", "required": true}, {"type": "double", "name":
+    "study spanning", "required": true}, {"type": "double", "name": "suggest", "required":
+    true}, {"type": "double", "name": "suggest existing", "required": true}, {"type":
+    "double", "name": "suggest implication", "required": true}, {"type": "double",
+    "name": "suggest intervention", "required": true}, {"type": "double", "name":
+    "suggest issue", "required": true}, {"type": "double", "name": "supply", "required":
+    true}, {"type": "double", "name": "supply chain", "required": true}, {"type":
+    "double", "name": "supporter", "required": true}, {"type": "double", "name": "supporter
+    say", "required": true}, {"type": "double", "name": "surfacelevel", "required":
+    true}, {"type": "double", "name": "surfacelevel manifestation", "required": true},
+    {"type": "double", "name": "surprising", "required": true}, {"type": "double",
+    "name": "surprising youve", "required": true}, {"type": "double", "name": "surrounding",
+    "required": true}, {"type": "double", "name": "surrounding aging", "required":
+    true}, {"type": "double", "name": "surrounding algorithmic", "required": true},
+    {"type": "double", "name": "surrounding antibiotic", "required": true}, {"type":
+    "double", "name": "surrounding autonomous", "required": true}, {"type": "double",
+    "name": "surrounding climate", "required": true}, {"type": "double", "name": "surrounding
+    cryptocurrency", "required": true}, {"type": "double", "name": "surrounding digital",
+    "required": true}, {"type": "double", "name": "surrounding economic", "required":
+    true}, {"type": "double", "name": "surrounding education", "required": true},
+    {"type": "double", "name": "surrounding food", "required": true}, {"type": "double",
+    "name": "surrounding gene", "required": true}, {"type": "double", "name": "surrounding
+    mental", "required": true}, {"type": "double", "name": "surrounding public", "required":
+    true}, {"type": "double", "name": "surrounding remote", "required": true}, {"type":
+    "double", "name": "surrounding renewable", "required": true}, {"type": "double",
+    "name": "surrounding social", "required": true}, {"type": "double", "name": "surrounding
+    space", "required": true}, {"type": "double", "name": "surrounding supply", "required":
+    true}, {"type": "double", "name": "surrounding urban", "required": true}, {"type":
+    "double", "name": "surrounding water", "required": true}, {"type": "double", "name":
+    "sustainable", "required": true}, {"type": "double", "name": "sustainable change",
+    "required": true}, {"type": "double", "name": "synthesizes", "required": true},
+    {"type": "double", "name": "synthesizes finding", "required": true}, {"type":
+    "double", "name": "synthesizes key", "required": true}, {"type": "double", "name":
+    "systemic", "required": true}, {"type": "double", "name": "systemic factor", "required":
+    true}, {"type": "double", "name": "systemic transformation", "required": true},
+    {"type": "double", "name": "take", "required": true}, {"type": "double", "name":
+    "take aging", "required": true}, {"type": "double", "name": "take algorithmic",
+    "required": true}, {"type": "double", "name": "take antibiotic", "required": true},
+    {"type": "double", "name": "take artificial", "required": true}, {"type": "double",
+    "name": "take autonomous", "required": true}, {"type": "double", "name": "take
+    cryptocurrency", "required": true}, {"type": "double", "name": "take cybersecurity",
+    "required": true}, {"type": "double", "name": "take data", "required": true},
+    {"type": "double", "name": "take digital", "required": true}, {"type": "double",
+    "name": "take economic", "required": true}, {"type": "double", "name": "take gene",
+    "required": true}, {"type": "double", "name": "take genomic", "required": true},
+    {"type": "double", "name": "take gig", "required": true}, {"type": "double", "name":
+    "take mental", "required": true}, {"type": "double", "name": "take nuclear", "required":
+    true}, {"type": "double", "name": "take public", "required": true}, {"type": "double",
+    "name": "take social", "required": true}, {"type": "double", "name": "take space",
+    "required": true}, {"type": "double", "name": "take student", "required": true},
+    {"type": "double", "name": "take supply", "required": true}, {"type": "double",
+    "name": "take urban", "required": true}, {"type": "double", "name": "take vaccine",
+    "required": true}, {"type": "double", "name": "take water", "required": true},
+    {"type": "double", "name": "talk", "required": true}, {"type": "double", "name":
+    "talk aging", "required": true}, {"type": "double", "name": "talk algorithmic",
+    "required": true}, {"type": "double", "name": "talk antibiotic", "required": true},
+    {"type": "double", "name": "talk artificial", "required": true}, {"type": "double",
+    "name": "talk autonomous", "required": true}, {"type": "double", "name": "talk
+    biodiversity", "required": true}, {"type": "double", "name": "talk climate", "required":
+    true}, {"type": "double", "name": "talk cryptocurrency", "required": true}, {"type":
+    "double", "name": "talk cybersecurity", "required": true}, {"type": "double",
+    "name": "talk data", "required": true}, {"type": "double", "name": "talk digital",
+    "required": true}, {"type": "double", "name": "talk education", "required": true},
+    {"type": "double", "name": "talk election", "required": true}, {"type": "double",
+    "name": "talk gene", "required": true}, {"type": "double", "name": "talk genomic",
+    "required": true}, {"type": "double", "name": "talk gig", "required": true}, {"type":
+    "double", "name": "talk mental", "required": true}, {"type": "double", "name":
+    "talk nuclear", "required": true}, {"type": "double", "name": "talk public", "required":
+    true}, {"type": "double", "name": "talk remote", "required": true}, {"type": "double",
+    "name": "talk renewable", "required": true}, {"type": "double", "name": "talk
+    social", "required": true}, {"type": "double", "name": "talk urban", "required":
+    true}, {"type": "double", "name": "talk vaccine", "required": true}, {"type":
+    "double", "name": "talking", "required": true}, {"type": "double", "name": "talking
+    point", "required": true}, {"type": "double", "name": "tbh", "required": true},
+    {"type": "double", "name": "telling", "required": true}, {"type": "double", "name":
+    "telling otherwise", "required": true}, {"type": "double", "name": "tension",
+    "required": true}, {"type": "double", "name": "tension resource", "required":
+    true}, {"type": "double", "name": "theme", "required": true}, {"type": "double",
+    "name": "theme methodological", "required": true}, {"type": "double", "name":
+    "theoretical", "required": true}, {"type": "double", "name": "theoretical framework",
+    "required": true}, {"type": "double", "name": "theoretical model", "required":
+    true}, {"type": "double", "name": "theoretical underpinnings", "required": true},
+    {"type": "double", "name": "theory", "required": true}, {"type": "double", "name":
+    "theory development", "required": true}, {"type": "double", "name": "there", "required":
+    true}, {"type": "double", "name": "there much", "required": true}, {"type": "double",
+    "name": "thing", "required": true}, {"type": "double", "name": "thing moving",
+    "required": true}, {"type": "double", "name": "think", "required": true}, {"type":
+    "double", "name": "think need", "required": true}, {"type": "double", "name":
+    "thinking", "required": true}, {"type": "double", "name": "thinking lot", "required":
+    true}, {"type": "double", "name": "though", "required": true}, {"type": "double",
+    "name": "though causality", "required": true}, {"type": "double", "name": "though
+    full", "required": true}, {"type": "double", "name": "though press", "required":
+    true}, {"type": "double", "name": "thought", "required": true}, {"type": "double",
+    "name": "thought like", "required": true}, {"type": "double", "name": "thought
+    review", "required": true}, {"type": "double", "name": "thoughtfully", "required":
+    true}, {"type": "double", "name": "thoughtfully thought", "required": true}, {"type":
+    "double", "name": "thread", "required": true}, {"type": "double", "name": "threat",
+    "required": true}, {"type": "double", "name": "threat infrastructure", "required":
+    true}, {"type": "double", "name": "three", "required": true}, {"type": "double",
+    "name": "three year", "required": true}, {"type": "double", "name": "thursday",
+    "required": true}, {"type": "double", "name": "thursday aging", "required": true},
+    {"type": "double", "name": "thursday data", "required": true}, {"type": "double",
+    "name": "thursday education", "required": true}, {"type": "double", "name": "thursday
+    gene", "required": true}, {"type": "double", "name": "thursday gig", "required":
+    true}, {"type": "double", "name": "thursday remote", "required": true}, {"type":
+    "double", "name": "thursday social", "required": true}, {"type": "double", "name":
+    "thursday space", "required": true}, {"type": "double", "name": "thursday vaccine",
+    "required": true}, {"type": "double", "name": "time", "required": true}, {"type":
+    "double", "name": "time discourse", "required": true}, {"type": "double", "name":
+    "timeline", "required": true}, {"type": "double", "name": "timeline unhinged",
+    "required": true}, {"type": "double", "name": "today", "required": true}, {"type":
+    "double", "name": "today reveals", "required": true}, {"type": "double", "name":
+    "told", "required": true}, {"type": "double", "name": "told reporter", "required":
+    true}, {"type": "double", "name": "transformation", "required": true}, {"type":
+    "double", "name": "transformation drawing", "required": true}, {"type": "double",
+    "name": "transit", "required": true}, {"type": "double", "name": "transit investment",
+    "required": true}, {"type": "double", "name": "trend", "required": true}, {"type":
+    "double", "name": "trend academic", "required": true}, {"type": "double", "name":
+    "trend actually", "required": true}, {"type": "double", "name": "trend become",
+    "required": true}, {"type": "double", "name": "trend broader", "required": true},
+    {"type": "double", "name": "trend challenge", "required": true}, {"type": "double",
+    "name": "trend complicated", "required": true}, {"type": "double", "name": "trend
+    continue", "required": true}, {"type": "double", "name": "trend critical", "required":
+    true}, {"type": "double", "name": "trend drawn", "required": true}, {"type": "double",
+    "name": "trend emergency", "required": true}, {"type": "double", "name": "trend
+    emerging", "required": true}, {"type": "double", "name": "trend employing", "required":
+    true}, {"type": "double", "name": "trend evolved", "required": true}, {"type":
+    "double", "name": "trend fine", "required": true}, {"type": "double", "name":
+    "trend honestly", "required": true}, {"type": "double", "name": "trend intensified",
+    "required": true}, {"type": "double", "name": "trend largely", "required": true},
+    {"type": "double", "name": "trend lately", "required": true}, {"type": "double",
+    "name": "trend predominantly", "required": true}, {"type": "double", "name": "trend
+    present", "required": true}, {"type": "double", "name": "trend really", "required":
+    true}, {"type": "double", "name": "trend researcher", "required": true}, {"type":
+    "double", "name": "trend source", "required": true}, {"type": "double", "name":
+    "trend there", "required": true}, {"type": "double", "name": "trend uncovered",
+    "required": true}, {"type": "double", "name": "trend within", "required": true},
+    {"type": "double", "name": "tuesday", "required": true}, {"type": "double", "name":
+    "tuesday algorithmic", "required": true}, {"type": "double", "name": "tuesday
+    autonomous", "required": true}, {"type": "double", "name": "tuesday climate",
+    "required": true}, {"type": "double", "name": "tuesday cryptocurrency", "required":
+    true}, {"type": "double", "name": "tuesday cybersecurity", "required": true},
+    {"type": "double", "name": "tuesday data", "required": true}, {"type": "double",
+    "name": "tuesday election", "required": true}, {"type": "double", "name": "tuesday
+    food", "required": true}, {"type": "double", "name": "tuesday nuclear", "required":
+    true}, {"type": "double", "name": "tuesday public", "required": true}, {"type":
+    "double", "name": "tuesday space", "required": true}, {"type": "double", "name":
+    "tuesday supply", "required": true}, {"type": "double", "name": "turning", "required":
+    true}, {"type": "double", "name": "turning point", "required": true}, {"type":
+    "double", "name": "two", "required": true}, {"type": "double", "name": "two decade",
+    "required": true}, {"type": "double", "name": "twoyear", "required": true}, {"type":
+    "double", "name": "twoyear period", "required": true}, {"type": "double", "name":
+    "uncovered", "required": true}, {"type": "double", "name": "uncovered new", "required":
+    true}, {"type": "double", "name": "underlying", "required": true}, {"type": "double",
+    "name": "underlying structural", "required": true}, {"type": "double", "name":
+    "underpinnings", "required": true}, {"type": "double", "name": "underpinnings
+    aging", "required": true}, {"type": "double", "name": "underpinnings algorithmic",
+    "required": true}, {"type": "double", "name": "underpinnings antibiotic", "required":
+    true}, {"type": "double", "name": "underpinnings artificial", "required": true},
+    {"type": "double", "name": "underpinnings autonomous", "required": true}, {"type":
+    "double", "name": "underpinnings biodiversity", "required": true}, {"type": "double",
+    "name": "underpinnings climate", "required": true}, {"type": "double", "name":
+    "underpinnings cryptocurrency", "required": true}, {"type": "double", "name":
+    "underpinnings cybersecurity", "required": true}, {"type": "double", "name": "underpinnings
+    data", "required": true}, {"type": "double", "name": "underpinnings digital",
+    "required": true}, {"type": "double", "name": "underpinnings economic", "required":
+    true}, {"type": "double", "name": "underpinnings education", "required": true},
+    {"type": "double", "name": "underpinnings election", "required": true}, {"type":
+    "double", "name": "underpinnings food", "required": true}, {"type": "double",
+    "name": "underpinnings gene", "required": true}, {"type": "double", "name": "underpinnings
+    genomic", "required": true}, {"type": "double", "name": "underpinnings gig", "required":
+    true}, {"type": "double", "name": "underpinnings mental", "required": true}, {"type":
+    "double", "name": "underpinnings nuclear", "required": true}, {"type": "double",
+    "name": "underpinnings public", "required": true}, {"type": "double", "name":
+    "underpinnings remote", "required": true}, {"type": "double", "name": "underpinnings
+    renewable", "required": true}, {"type": "double", "name": "underpinnings social",
+    "required": true}, {"type": "double", "name": "underpinnings space", "required":
+    true}, {"type": "double", "name": "underpinnings supply", "required": true}, {"type":
+    "double", "name": "underpinnings urban", "required": true}, {"type": "double",
+    "name": "underpinnings vaccine", "required": true}, {"type": "double", "name":
+    "underpinnings water", "required": true}, {"type": "double", "name": "underscore",
+    "required": true}, {"type": "double", "name": "underscore longstanding", "required":
+    true}, {"type": "double", "name": "underscore salience", "required": true}, {"type":
+    "double", "name": "underscoring", "required": true}, {"type": "double", "name":
+    "underscoring need", "required": true}, {"type": "double", "name": "understand",
+    "required": true}, {"type": "double", "name": "understand work", "required": true},
+    {"type": "double", "name": "understood", "required": true}, {"type": "double",
+    "name": "understood despite", "required": true}, {"type": "double", "name": "unexpected",
+    "required": true}, {"type": "double", "name": "unexpected compelling", "required":
+    true}, {"type": "double", "name": "unhinged", "required": true}, {"type": "double",
+    "name": "unhinged need", "required": true}, {"type": "double", "name": "unique",
+    "required": true}, {"type": "double", "name": "unique challenge", "required":
+    true}, {"type": "double", "name": "university", "required": true}, {"type": "double",
+    "name": "university collaborated", "required": true}, {"type": "double", "name":
+    "update", "required": true}, {"type": "double", "name": "update algorithmic",
+    "required": true}, {"type": "double", "name": "update artificial", "required":
+    true}, {"type": "double", "name": "update biodiversity", "required": true}, {"type":
+    "double", "name": "update climate", "required": true}, {"type": "double", "name":
+    "update cryptocurrency", "required": true}, {"type": "double", "name": "update
+    cybersecurity", "required": true}, {"type": "double", "name": "update data", "required":
+    true}, {"type": "double", "name": "update digital", "required": true}, {"type":
+    "double", "name": "update economic", "required": true}, {"type": "double", "name":
+    "update education", "required": true}, {"type": "double", "name": "update election",
+    "required": true}, {"type": "double", "name": "update food", "required": true},
+    {"type": "double", "name": "update gene", "required": true}, {"type": "double",
+    "name": "update genomic", "required": true}, {"type": "double", "name": "update
+    gig", "required": true}, {"type": "double", "name": "update mental", "required":
+    true}, {"type": "double", "name": "update public", "required": true}, {"type":
+    "double", "name": "update remote", "required": true}, {"type": "double", "name":
+    "update renewable", "required": true}, {"type": "double", "name": "update social",
+    "required": true}, {"type": "double", "name": "update space", "required": true},
+    {"type": "double", "name": "update student", "required": true}, {"type": "double",
+    "name": "update supply", "required": true}, {"type": "double", "name": "update
+    urban", "required": true}, {"type": "double", "name": "update vaccine", "required":
+    true}, {"type": "double", "name": "urban", "required": true}, {"type": "double",
+    "name": "urban housing", "required": true}, {"type": "double", "name": "urgent",
+    "required": true}, {"type": "double", "name": "urgent attention", "required":
+    true}, {"type": "double", "name": "urging", "required": true}, {"type": "double",
+    "name": "urging immediate", "required": true}, {"type": "double", "name": "vaccine",
+    "required": true}, {"type": "double", "name": "vaccine distribution", "required":
+    true}, {"type": "double", "name": "variability", "required": true}, {"type": "double",
+    "name": "variability systemic", "required": true}, {"type": "double", "name":
+    "variable", "required": true}, {"type": "double", "name": "vehicle", "required":
+    true}, {"type": "double", "name": "vehicle safety", "required": true}, {"type":
+    "double", "name": "volatility", "required": true}, {"type": "double", "name":
+    "volatility actually", "required": true}, {"type": "double", "name": "volatility
+    announcement", "required": true}, {"type": "double", "name": "volatility become",
+    "required": true}, {"type": "double", "name": "volatility broader", "required":
+    true}, {"type": "double", "name": "volatility complicated", "required": true},
+    {"type": "double", "name": "volatility critical", "required": true}, {"type":
+    "double", "name": "volatility drawn", "required": true}, {"type": "double", "name":
+    "volatility emergency", "required": true}, {"type": "double", "name": "volatility
+    encouraging", "required": true}, {"type": "double", "name": "volatility evolved",
+    "required": true}, {"type": "double", "name": "volatility fine", "required": true},
+    {"type": "double", "name": "volatility happened", "required": true}, {"type":
+    "double", "name": "volatility honestly", "required": true}, {"type": "double",
+    "name": "volatility intensified", "required": true}, {"type": "double", "name":
+    "volatility keep", "required": true}, {"type": "double", "name": "volatility largely",
+    "required": true}, {"type": "double", "name": "volatility lately", "required":
+    true}, {"type": "double", "name": "volatility noting", "required": true}, {"type":
+    "double", "name": "volatility occupies", "required": true}, {"type": "double",
+    "name": "volatility present", "required": true}, {"type": "double", "name": "volatility
+    reported", "required": true}, {"type": "double", "name": "volatility sec", "required":
+    true}, {"type": "double", "name": "volatility source", "required": true}, {"type":
+    "double", "name": "volatility uncovered", "required": true}, {"type": "double",
+    "name": "volatility within", "required": true}, {"type": "double", "name": "warrant",
+    "required": true}, {"type": "double", "name": "warrant empirical", "required":
+    true}, {"type": "double", "name": "watching", "required": true}, {"type": "double",
+    "name": "watching development", "required": true}, {"type": "double", "name":
+    "water", "required": true}, {"type": "double", "name": "water scarcity", "required":
+    true}, {"type": "double", "name": "way", "required": true}, {"type": "double",
+    "name": "way concerned", "required": true}, {"type": "double", "name": "way go",
+    "required": true}, {"type": "double", "name": "wednesday", "required": true},
+    {"type": "double", "name": "wednesday artificial", "required": true}, {"type":
+    "double", "name": "wednesday autonomous", "required": true}, {"type": "double",
+    "name": "wednesday cybersecurity", "required": true}, {"type": "double", "name":
+    "wednesday election", "required": true}, {"type": "double", "name": "wednesday
+    gene", "required": true}, {"type": "double", "name": "wednesday space", "required":
+    true}, {"type": "double", "name": "wednesday student", "required": true}, {"type":
+    "double", "name": "wednesday urban", "required": true}, {"type": "double", "name":
+    "wednesday vaccine", "required": true}, {"type": "double", "name": "wednesday
+    water", "required": true}, {"type": "double", "name": "week", "required": true},
+    {"type": "double", "name": "week prompting", "required": true}, {"type": "double",
+    "name": "week speculation", "required": true}, {"type": "double", "name": "weve",
+    "required": true}, {"type": "double", "name": "weve saying", "required": true},
+    {"type": "double", "name": "within", "required": true}, {"type": "double", "name":
+    "within broader", "required": true}, {"type": "double", "name": "within contemporary",
+    "required": true}, {"type": "double", "name": "witness", "required": true}, {"type":
+    "double", "name": "witness declined", "required": true}, {"type": "double", "name":
+    "work", "required": true}, {"type": "double", "name": "work productivity", "required":
+    true}, {"type": "double", "name": "worse", "required": true}, {"type": "double",
+    "name": "worse need", "required": true}, {"type": "double", "name": "year", "required":
+    true}, {"type": "double", "name": "year nobody", "required": true}, {"type": "double",
+    "name": "year preliminary", "required": true}, {"type": "double", "name": "yes",
+    "required": true}, {"type": "double", "name": "yes challenge", "required": true},
+    {"type": "double", "name": "yet", "required": true}, {"type": "double", "name":
+    "yet release", "required": true}, {"type": "double", "name": "youre", "required":
+    true}, {"type": "double", "name": "youre open", "required": true}, {"type": "double",
+    "name": "youve", "required": true}, {"type": "double", "name": "youve paying",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-05-18 04:45:46.803922'
