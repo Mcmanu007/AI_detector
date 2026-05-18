@@ -27,6 +27,7 @@ cons_handler.setFormatter(format)
 logger.addHandler(file_handler)
 logger.addHandler(file_handler)
 
+
 #load the testing data
 def load_test_data(test_data_path):
     try:
@@ -40,6 +41,7 @@ def load_test_data(test_data_path):
     except Exception as e:
         logger.error('An error occured: %s', e)
 
+
 def load_trained_model(model_path):
     try:
         model = joblib.load(model_path)
@@ -49,6 +51,7 @@ def load_trained_model(model_path):
         logger.error('An error occured in locating the error')
     except Exception as e:
         logger.error('An error occured: %s', e)
+
 
 def load_vectorizer(vectorizer_path):
     try:
@@ -73,6 +76,7 @@ def evaluate_model(model,vectorizer,X_test:np.ndarray,y_test:np.ndarray):
     except Exception as e:
         logger.error('An error occured: %s', e)
 
+
 def save_evaluation_results(acc, conf_matrix, class_report, output_path:str='model/evaluation_results.txt'):
     try:
         os.makedirs(output_path, exist_ok=True)
@@ -83,6 +87,7 @@ def save_evaluation_results(acc, conf_matrix, class_report, output_path:str='mod
         logger.debug('Evaluation results saved successfully')
     except Exception as e:
         logger.error('An error occured: %s', e)
+
 
 def save_info(model_path:str,run_id:str,file_path:str):
     try:
@@ -112,31 +117,57 @@ def main():
             model_path = config['pickle']['model_path']
             vectorizer_path = config['pickle']['vectorizer_path']
 
-        test_data = load_test_data(test_path)
-        model = load_trained_model(model_path)
-        vectorizer = load_vectorizer(vectorizer_path)
+            test_data = load_test_data(test_path)
+            model = load_trained_model(model_path)
+            vectorizer = load_vectorizer(vectorizer_path)
+            
+            #preparing the testing data
+            X_test = test_data['text'].values
+            y_test = test_data['label'].values
+
+            #test dataframe
+            tests_example = pd.DataFrame(X_test.toarray()[:10],columns=vectorizer.get_feature_names_out())
+
+
+            test_signature = infer_signature(tests_example,model.predict(X_test[:10]))
+
         
-        #preparing the testing data
-        X_test = test_data['text'].values
-        y_test = test_data['label'].values
-
-        #test dataframe
-        tests_example = pd.DataFrame(X_test.toarray()[:10],columns=vectorizer.get_feature_names_out())
-
-
-        test_signature = infer_signature(tests_example,model.predict(X_test[:10]))
-
-    
-        mlflow.sklearn.log_model(
-                model,
-                'LogisticRegressionModel',
-                signature=test_signature,
-                input_example=tests_example
-            )
-            model_path = 'Logistic Regression Model'
-            saving_model_info(
-                run.info.run_id, 
-                model_path,
-                'model_info.json'
+            mlflow.sklearn.log_model(
+                    model,
+                    'RandomForestClassifier',
+                    signature=test_signature,
+                    input_example=tests_example
+                )
+            model_path = 'Random Forest Classifier Model'
+            save_info(
+                    run.info.run_id,   
+                    model_path,
+                    'model_info.json'
             )
 
+            acc, conf_matrix, class_report = evaluate_model(model,vectorizer,X_test,y_test)
+            save_evaluation_results(acc, conf_matrix, class_report)
+
+            for label,metrics in class_report.items():
+                if isinstance(metrics, dict):
+                    for metric_name, metric_value in metrics.items():
+                        mlflow.log_metric(f'{label}_{metric_name}', metric_value)
+
+            mlflow.log_metric('accuracy', acc)
+            mlflow.log_artifact('model_info.json')
+            mlflow.log_artifact('model/evaluation_results.txt')
+            
+            whitelist = ['vectorizer', 'smote']
+            #logging the parameters of the vectorizer and smote model
+            
+            params_to_log = {}
+            for section in whitelist:
+                if section in config:
+                    for key, value in config[section].items():
+                        params_to_log[f"{section}_{key}"] = value
+            mlflow.log_params(params_to_log)
+        except Exception as e:  
+           logger.error('An error occured in the evaluation process: %s', e)
+
+if __name__ == '__main__':
+    main()

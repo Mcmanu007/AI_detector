@@ -111,7 +111,9 @@ def train_model():
         train_data = load_train_data(train_path)
         X_train, y_train = main(train_data,ngram_range,max_features,max_df,random_state,k_neighbors)
         model = model_building(X_train,y_train)
+
         save_model(model)
+        
         logger.debug('Model trained succsefully')
     except Exception as e:
         logger.debug('An error occured in training the model: %s', e)
